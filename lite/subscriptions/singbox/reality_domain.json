@@ -118,6 +118,7 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
+                "🇹🇷 TR | 🔒 VLESS | @mowjproxy [3]",
                 "🇬🇧 GB | 🔒 VLESS | @netmellianti [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
@@ -180,6 +181,7 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
+                "🇹🇷 TR | 🔒 VLESS | @mowjproxy [3]",
                 "🇬🇧 GB | 🔒 VLESS | @netmellianti [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
@@ -931,6 +933,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Hossien"
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔒 VLESS | @mowjproxy [3]",
+            "type": "vless",
+            "server": "data.dayhostpro.com",
+            "server_port": 29664,
+            "uuid": "ab18a2cd-4177-406e-887b-4cdcdbcae11c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "i.imgcs.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "39hNisTO1jyeHalP9eH35ZGgwfGnrYIb28z1nvD0ix0",
+                    "short_id": "df3d"
+                }
             }
         },
         {
