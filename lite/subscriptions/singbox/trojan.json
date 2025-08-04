@@ -101,7 +101,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [13]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
-                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [14]",
+                "🇺🇸 US | 🔓 TROJAN | @hope_net [19]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
@@ -133,7 +133,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [13]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
-                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [14]",
+                "🇺🇸 US | 🔓 TROJAN | @hope_net [19]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
@@ -399,18 +399,16 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [14]",
+            "tag": "🇺🇸 US | 🔓 TROJAN | @hope_net [19]",
             "type": "trojan",
-            "server": "192.3.107.252",
-            "server_port": 443,
-            "password": "2ee85121-31de-4581-a492-eb00f606e392",
-            "tls": {
-                "enabled": true,
-                "server_name": "rc8.freeguard.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "server": "199.232.197.231",
+            "server_port": 80,
+            "password": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "transport": {
+                "type": "ws",
+                "path": "/kptMTT8pTmxLWsoJ?ed=2560",
+                "headers": {
+                    "Host": "199.232.197.231"
                 }
             }
         },
