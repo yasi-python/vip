@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔓 TROJAN | @configshubplus [18]",
                 "🚩 CF | 🔒 TROJAN | @dailytek [2]",
                 "🚩 CF | 🔒 TROJAN | @dailytek [5]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [4]",
@@ -100,8 +101,8 @@
                 "🇺🇸 US | 🔒 TROJAN | @free_serverir [20]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [11]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [6]",
-                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
+                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [7]",
+                "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇫🇷 FR | 🔒 TROJAN | @jiedianf [5]",
                 "🚩 CF | 🔓 TROJAN | @jiedianssr [3]",
                 "🇨🇳 CN | 🔒 TROJAN | @jiedianssr [5]",
@@ -132,7 +133,6 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🚩 CF | 🔒 TROJAN | @v2raych [17]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -153,7 +153,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [12]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [13]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [14]",
-                "🚩 CF | 🔒 TROJAN | @vmesc [18]"
+                "🚩 CF | 🔒 TROJAN | @vmesc [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -164,6 +164,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔓 TROJAN | @configshubplus [18]",
                 "🚩 CF | 🔒 TROJAN | @dailytek [2]",
                 "🚩 CF | 🔒 TROJAN | @dailytek [5]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [4]",
@@ -184,8 +185,8 @@
                 "🇺🇸 US | 🔒 TROJAN | @free_serverir [20]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [11]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [6]",
-                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
+                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [7]",
+                "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇫🇷 FR | 🔒 TROJAN | @jiedianf [5]",
                 "🚩 CF | 🔓 TROJAN | @jiedianssr [3]",
                 "🇨🇳 CN | 🔒 TROJAN | @jiedianssr [5]",
@@ -216,7 +217,6 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🚩 CF | 🔒 TROJAN | @v2raych [17]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -237,7 +237,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [12]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [13]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [14]",
-                "🚩 CF | 🔒 TROJAN | @vmesc [18]"
+                "🚩 CF | 🔒 TROJAN | @vmesc [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -324,6 +324,22 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 TROJAN | @configshubplus [18]",
+            "type": "trojan",
+            "server": "162.159.44.48",
+            "server_port": 443,
+            "password": "Aimer",
+            "tls": {
+                "enabled": true,
+                "server_name": "ngepy.ambercc.filegear-sg.me",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -639,14 +655,14 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [6]",
+            "tag": "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [7]",
             "type": "trojan",
-            "server": "198.41.193.191",
+            "server": "198.23.229.250",
             "server_port": 443,
-            "password": "NISHIKUITAN111",
+            "password": "2ee85121-31de-4581-a492-eb00f606e392",
             "tls": {
                 "enabled": true,
-                "server_name": "198.41.193.191",
+                "server_name": "rc6.freeguard.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -655,14 +671,14 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
+            "tag": "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [11]",
             "type": "trojan",
-            "server": "198.23.229.250",
+            "server": "176.32.39.29",
             "server_port": 443,
-            "password": "2ee85121-31de-4581-a492-eb00f606e392",
+            "password": "8OXD5VVt8s",
             "tls": {
                 "enabled": true,
-                "server_name": "rc6.freeguard.org",
+                "server_name": "journalofbigdata.springeropen.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1197,29 +1213,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [17]",
-            "type": "trojan",
-            "server": "104.26.12.31",
-            "server_port": 8443,
-            "password": "trojan",
-            "tls": {
-                "enabled": true,
-                "server_name": "fofang.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "fofang.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
             "type": "trojan",
             "server": "145.239.237.92",
@@ -1531,7 +1524,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @vmesc [18]",
+            "tag": "🚩 CF | 🔒 TROJAN | @vmesc [17]",
             "type": "trojan",
             "server": "172.67.181.173",
             "server_port": 443,
