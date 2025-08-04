@@ -92,10 +92,11 @@
                 "❔ XX | 🔒 SS | @proxy_confiingir [2]",
                 "🇬🇧 GB | 🔒 SS | @prroxyng [2]",
                 "🇬🇧 GB | 🔒 SS | @serverv2ray00 [20]",
+                "🇸🇬 SG | 🔒 SS | @v2ray_free_conf [19]",
                 "🇬🇧 GB | 🔒 SS | @v2rayang201 [8]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
-                "🇯🇵 JP | 🔒 SS | @vpn451 [15]",
-                "🇯🇵 JP | 🔒 SS | @vpn451 [17]"
+                "🇯🇵 JP | 🔒 SS | @vpn451 [16]",
+                "🇺🇸 US | 🔒 SS | @vpn451 [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -118,10 +119,11 @@
                 "❔ XX | 🔒 SS | @proxy_confiingir [2]",
                 "🇬🇧 GB | 🔒 SS | @prroxyng [2]",
                 "🇬🇧 GB | 🔒 SS | @serverv2ray00 [20]",
+                "🇸🇬 SG | 🔒 SS | @v2ray_free_conf [19]",
                 "🇬🇧 GB | 🔒 SS | @v2rayang201 [8]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
-                "🇯🇵 JP | 🔒 SS | @vpn451 [15]",
-                "🇯🇵 JP | 🔒 SS | @vpn451 [17]"
+                "🇯🇵 JP | 🔒 SS | @vpn451 [16]",
+                "🇺🇸 US | 🔒 SS | @vpn451 [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -308,6 +310,14 @@
             "password": "Bog0ELmMM9DSxDdQ"
         },
         {
+            "tag": "🇸🇬 SG | 🔒 SS | @v2ray_free_conf [19]",
+            "type": "shadowsocks",
+            "server": "sg-01.cloxynode.com",
+            "server_port": 35515,
+            "method": "chacha20-ietf-poly1305",
+            "password": "c994c26b-33b7-482b-b733-ac788ffd48ed"
+        },
+        {
             "tag": "🇬🇧 GB | 🔒 SS | @v2rayang201 [8]",
             "type": "shadowsocks",
             "server": "series-a1.samanehha.co",
@@ -324,20 +334,20 @@
             "password": "u17T3BvpYaaiuW2c"
         },
         {
-            "tag": "🇯🇵 JP | 🔒 SS | @vpn451 [15]",
-            "type": "shadowsocks",
-            "server": "sakura.outlinekeys.net",
-            "server_port": 1235,
-            "method": "chacha20-ietf-poly1305",
-            "password": "sINSpdNYGUfLMzsoLD3W5D"
-        },
-        {
-            "tag": "🇯🇵 JP | 🔒 SS | @vpn451 [17]",
+            "tag": "🇯🇵 JP | 🔒 SS | @vpn451 [16]",
             "type": "shadowsocks",
             "server": "sakura.outlinekeys.net",
             "server_port": 1235,
             "method": "chacha20-ietf-poly1305",
             "password": "rhGz9UAp47At0PKbD4Lo5A"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 SS | @vpn451 [17]",
+            "type": "shadowsocks",
+            "server": "fox-usa.outlinekeys.net",
+            "server_port": 34868,
+            "method": "chacha20-ietf-poly1305",
+            "password": "um2h1vWlmNLwKcN18ySgLQ"
         }
     ],
     "route": {
