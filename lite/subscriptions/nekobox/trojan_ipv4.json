@@ -83,6 +83,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
+                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
@@ -94,7 +95,8 @@
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [13]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [14]"
+                "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [14]",
+                "🚩 CF | 🔒 TROJAN | @vmesc [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -108,6 +110,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
+                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
@@ -119,7 +122,8 @@
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [13]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [14]"
+                "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [14]",
+                "🚩 CF | 🔒 TROJAN | @vmesc [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -250,6 +254,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [13]",
+            "type": "trojan",
+            "server": "192.3.107.252",
+            "server_port": 443,
+            "password": "2ee85121-31de-4581-a492-eb00f606e392",
+            "tls": {
+                "enabled": true,
+                "server_name": "rc8.freeguard.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -453,6 +473,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @vmesc [20]",
+            "type": "trojan",
+            "server": "172.67.181.173",
+            "server_port": 443,
+            "password": "f282b878-8711-45a1-8c69-5564172123c1",
+            "tls": {
+                "enabled": true,
+                "server_name": "vpn.stupidworld.web.id",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/telegram--MTMVPN--telegram--MTMVPN--telegram--MTMVPN--telegram--MTMVPN--telegram--MTMVPN",
+                "headers": {
+                    "Host": "vpn.stupidworld.web.id"
                 }
             }
         }
