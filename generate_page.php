@@ -353,21 +353,9 @@ function generate_full_html(
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="/dist/output.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
-    <script>
-      tailwind.config = {
-        darkMode: 'class', // Enable dark mode
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-            },
-          }
-        }
-      }
-    </script>
     
     <style>
         body { font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
@@ -383,14 +371,14 @@ function generate_full_html(
         .mode-btn.text-indigo-600 { color: #4f46e5; }
         html.dark .mode-btn.text-indigo-600 { color: #818cf8; } /* indigo-400 */
 
-	    .step-container.active {
+        .step-container.active {
             opacity: 1;
             border-color: #4f46e5; /* indigo-500 */
         }
         .step-container.active .step-icon {
             background-color: #4338ca; /* indigo-700 */
         }
-	    details[open] > summary .lucide-chevron-down {
+        details[open] > summary .lucide-chevron-down {
             transform: rotate(180deg);
         }
         .composer-step.active {
@@ -834,7 +822,7 @@ function generate_full_html(
             });
         });
 
-		/**
+        /**
  * A JavaScript client for the shz.al pastebin API.
  * This class provides methods to interact with all endpoints of the API.
  * @see API Reference: https://shz.al
@@ -1115,8 +1103,8 @@ class ShzAlClient {
         const composedResultText = document.getElementById('composedResultText');
         const copyComposedButton = document.getElementById('copyComposedButton');
         const downloadComposedButton = document.getElementById('downloadComposedButton');
-	const composerStep2 = document.getElementById('composerStep2');
-	const composerStep3 = document.getElementById('composerStep3');
+    const composerStep2 = document.getElementById('composerStep2');
+    const composerStep3 = document.getElementById('composerStep3');
         
         // Splitter Mode
         const splitterUrlInput = document.getElementById('splitterUrlInput');
@@ -1136,8 +1124,8 @@ class ShzAlClient {
         const compilerResultText = document.getElementById('compilerResultText');
         const copyConvertedButton = document.getElementById('copyConvertedButton');
         const downloadConvertedButton = document.getElementById('downloadConvertedButton');
-	const shareConvertedButton = document.getElementById('shareConvertedButton');
-	// --- Add for Compiler Wizard ---
+    const shareConvertedButton = document.getElementById('shareConvertedButton');
+    // --- Add for Compiler Wizard ---
 const detectedFormatBadge = document.getElementById('detectedFormatBadge');
 let detectedInputFormat = null; // To store the auto-detected format
 
@@ -1155,7 +1143,7 @@ let detectedInputFormat = null; // To store the auto-detected format
         }
 
         // --- UTILITY FUNCTIONS ---
-	    /**
+        /**
  * Analyzes a string to detect its configuration format.
  * @param {string} text - The raw input text.
  * @returns {string|null} The detected format ('clash', 'singbox', 'base64', 'uri_list') or null.
@@ -1319,7 +1307,7 @@ async function handleShare(contentToUpload, buttonElement) {
             // 4. Show the active container
             if (allModes[activeMode]) {
                 allModes[activeMode].container.classList.remove('hidden');
-	        if (activeMode === 'simple' && ipTypeSelect.value) {
+            if (activeMode === 'simple' && ipTypeSelect.value) {
                     resultArea.classList.remove('hidden');
                 }
             }
@@ -1829,10 +1817,10 @@ async function handleShare(contentToUpload, buttonElement) {
                 // OR
                 // 2. Its transport is 'tcp' AND it's using TLS.
                 if (p.protocol === 'hy2' || p.protocol === 'hysteria2') {
-	            // This is a valid node, do nothing and let it pass the filter.
-	        } else if (!ALLOWED_ADVANCED_TRANSPORTS.includes(transportType) && !(transportType === 'tcp' && isTlsEnabled)) {
-	            return null; // Discard other plain, unencrypted TCP and unsupported transports.
-	        }
+                // This is a valid node, do nothing and let it pass the filter.
+            } else if (!ALLOWED_ADVANCED_TRANSPORTS.includes(transportType) && !(transportType === 'tcp' && isTlsEnabled)) {
+                return null; // Discard other plain, unencrypted TCP and unsupported transports.
+            }
 
                 let transport = null;
                 // Only create a transport object for the advanced, non-tcp types
@@ -1874,11 +1862,11 @@ async function handleShare(contentToUpload, buttonElement) {
                     case 'ss':
                         singboxNode = { tag: p.hash, type: 'shadowsocks', server: p.hostname, server_port: p.port, method: p.encryption_method, password: p.password, tls: tlsSettings };
                         break;
-	            case 'hy2':
-	            case 'hysteria2':
+                case 'hy2':
+                case 'hysteria2':
                         singboxNode = { tag: p.hash, type: 'hysteria2', server: p.hostname, server_port: p.port, password: p.username, obfs: p.params.obfs ? { type: p.params.obfs, password: p.params['obfs-password'] || '' } : undefined, tls: { enabled: true, server_name: p.params.sni, insecure: p.params.insecure === '1' || p.params.insecure === 'true' } };
-	                if (singboxNode.obfs === undefined) { delete singboxNode.obfs; }
-	                break;
+                    if (singboxNode.obfs === undefined) { delete singboxNode.obfs; }
+                    break;
                 }
                 
                 if (singboxNode && transport) {
@@ -2117,14 +2105,14 @@ async function handleShare(contentToUpload, buttonElement) {
         splitterResultList.addEventListener('click', e => {
             const copyBtn = e.target.closest('.splitter-copy-btn');
             const qrBtn = e.target.closest('.splitter-qr-btn');
-			const shareBtn = e.target.closest('.splitter-share-btn');
+            const shareBtn = e.target.closest('.splitter-share-btn');
             if (copyBtn) {
                 navigator.clipboard.writeText(copyBtn.dataset.uri).then(() => {
                     showMessageBox('Data URI copied to clipboard!');
                 });
             }
-			
-			if (shareBtn) {
+            
+            if (shareBtn) {
                 const content = shareBtn.dataset.uri;
                 handleShare(content, shareBtn);
             }
@@ -2273,7 +2261,7 @@ async function handleShare(contentToUpload, buttonElement) {
                 switchMode(targetMode);
             });
         });
-	    // =======================================================
+        // =======================================================
 // --- GUIDED WIZARD LOGIC FOR SIMPLE MODE ---
 // =======================================================
 const step1 = document.getElementById('step1');
@@ -2304,7 +2292,7 @@ function activateStep(stepElement) {
         primaryInput.disabled = false;
     }
 }
-	    // =======================================================
+        // =======================================================
 // --- GUIDED WIZARD LOGIC FOR COMPOSER MODE ---
 // =======================================================
 
@@ -2360,7 +2348,7 @@ compilerInputText.addEventListener('input', () => {
     detectedFormatBadge.textContent = badgeText;
     detectedFormatBadge.className = `text-xs font-semibold px-2 py-1 rounded-full transition-all ${badgeClass}`;
 });
-	    
+        
 configTypeSelect.addEventListener('change', () => {
     // Reset steps 2 and 3
     resetStep(step2);
@@ -2436,8 +2424,8 @@ searchBar.addEventListener('input', updateOtherElementOptions);
         populateComposerSources();
         switchMode('simple'); // Set the initial state to "Simple" mode
         lucide.createIcons();
-		updateChartDefaults();
-		
+        updateChartDefaults();
+        
     });
     (function() {
     const ipInfoSpan = document.getElementById('live-ip-info');
