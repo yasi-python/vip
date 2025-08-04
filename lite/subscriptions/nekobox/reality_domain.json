@@ -106,9 +106,10 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
+                "🇳🇱 NL | 🔒 VLESS | @manzariyeh_rasht [20]",
+                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [21]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [3]",
                 "🇹🇷 TR | 🔒 VLESS | @netmellianti [8]",
-                "🇳🇱 NL | 🔒 VLESS | @netmellianti [10]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -125,6 +126,7 @@
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇦🇪 AE | 🔒 VLESS | @v2graphy [13]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [20]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [10]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
@@ -171,9 +173,10 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
+                "🇳🇱 NL | 🔒 VLESS | @manzariyeh_rasht [20]",
+                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [21]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [3]",
                 "🇹🇷 TR | 🔒 VLESS | @netmellianti [8]",
-                "🇳🇱 NL | 🔒 VLESS | @netmellianti [10]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -190,6 +193,7 @@
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇦🇪 AE | 🔒 VLESS | @v2graphy [13]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [20]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [10]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
@@ -932,7 +936,53 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @manzariyeh_rasht [20]",
+            "type": "vless",
+            "server": "net.dayhostpro.com",
+            "server_port": 30278,
+            "uuid": "f2b4115c-75ba-4e4c-9118-5c7cc3415dfe",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "getpebble.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZDIKDiJd3EX6OP2uH28h_WuVSDuC4guQb1OWUnYop1Q",
+                    "short_id": "f1"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [21]",
+            "type": "vless",
+            "server": "hajimamad.timeclassic.ir",
+            "server_port": 900,
+            "uuid": "5a998931-c4be-4441-8a0d-81ffe55b5c64",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "I_6r2_l9eY9wBf3OIV7V-HcNJ4LuwxKM99gXUZaYAzI",
+                    "short_id": "2cc45a0088671249"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [3]",
             "type": "vless",
             "server": "vpn_proxy_channel_vpn_proxy_channel.hohod.ir",
             "server_port": 443,
@@ -974,29 +1024,6 @@
                     "enabled": true,
                     "public_key": "39hNisTO1jyeHalP9eH35ZGgwfGnrYIb28z1nvD0ix0",
                     "short_id": "df3d"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @netmellianti [10]",
-            "type": "vless",
-            "server": "net.dayhostpro.com",
-            "server_port": 30278,
-            "uuid": "f2b4115c-75ba-4e4c-9118-5c7cc3415dfe",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "getpebble.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZDIKDiJd3EX6OP2uH28h_WuVSDuC4guQb1OWUnYop1Q",
-                    "short_id": "f1"
                 }
             }
         },
@@ -1381,6 +1408,29 @@
                     "enabled": true,
                     "public_key": "RLUQT-hMZPmNWtDE67gs8osxdeASKAnARAmNs9bs0l0",
                     "short_id": "fdf18126a0768480"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [20]",
+            "type": "vless",
+            "server": "vip1.proxystore11.news",
+            "server_port": 10358,
+            "uuid": "a5816688-3c6b-465b-b4f6-54c1cdcebbce",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "axD7U8DCmchSVZemN_DTRYdnNZ141CxTSkTabDdzNEk",
+                    "short_id": "b373044d"
                 }
             }
         },
