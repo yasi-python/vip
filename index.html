@@ -124,6 +124,31 @@
             <p class="text-sm text-slate-500 dark:text-slate-400 mb-4">Search for a specific subscription.</p>
             <input type="search" id="searchBar" placeholder="Filter subscriptions..." class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2 mb-2 bg-slate-50 dark:bg-slate-700 text-slate-800 dark:text-slate-200 placeholder-slate-400 dark:placeholder-slate-500 dark:border-slate-600" disabled>
             <select id="otherElement" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-50 dark:bg-slate-700 text-slate-800 dark:text-slate-200 dark:border-slate-600" disabled></select>
+
+            <!-- Expiry Modal Trigger Button -->
+            <button id="openExpiryModalBtn" type="button" class="mt-4 w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg shadow transition">Set Expiry Date/Time</button>
+
+            <!-- Expiry Modal -->
+            <div id="expiryModal" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40 hidden">
+              <div class="bg-white dark:bg-slate-800 rounded-xl shadow-2xl p-8 w-full max-w-md relative">
+                <button id="closeExpiryModalBtn" class="absolute top-3 right-3 text-slate-400 hover:text-red-500 text-2xl">&times;</button>
+                <h2 class="text-xl font-bold mb-4 text-slate-800 dark:text-slate-100">Set Config Expiry</h2>
+                <form id="expiryForm" class="space-y-4">
+                  <div>
+                    <label for="expiryDate" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Expiry Date</label>
+                    <input type="date" id="expiryDate" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-50 dark:bg-slate-700 text-slate-800 dark:text-slate-200 dark:border-slate-600" required>
+                  </div>
+                  <div>
+                    <label for="expiryTime" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Expiry Time</label>
+                    <input type="time" id="expiryTime" class="block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2.5 bg-slate-50 dark:bg-slate-700 text-slate-800 dark:text-slate-200 dark:border-slate-600" required>
+                  </div>
+                  <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg shadow transition">Save Expiry</button>
+                </form>
+              </div>
+            </div>
+
+            <!-- Expiry Status Message -->
+            <div id="expiryStatusMsg" class="mt-3 text-center text-sm font-medium"></div>
         </div>
 
     </div>
@@ -446,6 +471,86 @@
     
     <script>
     document.addEventListener('DOMContentLoaded', () => {
+    // --- EXPIRY MODAL LOGIC (Simple Mode Step 3) ---
+    const openExpiryModalBtn = document.getElementById('openExpiryModalBtn');
+    const expiryModal = document.getElementById('expiryModal');
+    const closeExpiryModalBtn = document.getElementById('closeExpiryModalBtn');
+    const expiryForm = document.getElementById('expiryForm');
+    const expiryDateInput = document.getElementById('expiryDate');
+    const expiryTimeInput = document.getElementById('expiryTime');
+    const expiryStatusMsg = document.getElementById('expiryStatusMsg');
+
+    // Helper: Get/Set expiry in localStorage (per user/config basis, here just demo key 'simpleConfigExpiry')
+    function getConfigExpiry() {
+      return localStorage.getItem('simpleConfigExpiry');
+    }
+    function setConfigExpiry(isoString) {
+      localStorage.setItem('simpleConfigExpiry', isoString);
+    }
+    function clearConfigExpiry() {
+      localStorage.removeItem('simpleConfigExpiry');
+    }
+
+    // Open modal
+    openExpiryModalBtn.addEventListener('click', () => {
+      expiryModal.classList.remove('hidden');
+      // Prefill with current expiry if set
+      const expiry = getConfigExpiry();
+      if (expiry) {
+        const dt = new Date(expiry);
+        expiryDateInput.value = dt.toISOString().slice(0,10);
+        expiryTimeInput.value = dt.toTimeString().slice(0,5);
+      } else {
+        expiryDateInput.value = '';
+        expiryTimeInput.value = '';
+      }
+    });
+    // Close modal
+    closeExpiryModalBtn.addEventListener('click', () => {
+      expiryModal.classList.add('hidden');
+    });
+    // Save expiry
+    expiryForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const date = expiryDateInput.value;
+      const time = expiryTimeInput.value;
+      if (!date || !time) return;
+      const isoString = new Date(date + 'T' + time).toISOString();
+      setConfigExpiry(isoString);
+      expiryModal.classList.add('hidden');
+      updateExpiryStatus();
+    });
+
+    // Check expiry and update UI
+    function updateExpiryStatus() {
+      const expiry = getConfigExpiry();
+      if (!expiry) {
+        expiryStatusMsg.textContent = 'No expiry set.';
+        expiryStatusMsg.className = 'mt-3 text-center text-sm font-medium text-slate-500';
+        enableStep3Inputs(true);
+        return;
+      }
+      const now = new Date();
+      const exp = new Date(expiry);
+      if (now >= exp) {
+        expiryStatusMsg.textContent = '⏰ Config expired at ' + exp.toLocaleString() + '. All configs are disabled.';
+        expiryStatusMsg.className = 'mt-3 text-center text-sm font-medium text-red-600';
+        enableStep3Inputs(false);
+      } else {
+        expiryStatusMsg.textContent = '✅ Config active. Expires at ' + exp.toLocaleString();
+        expiryStatusMsg.className = 'mt-3 text-center text-sm font-medium text-green-600';
+        enableStep3Inputs(true);
+      }
+    }
+    // Enable/disable Step 3 inputs
+    function enableStep3Inputs(enable) {
+      document.getElementById('searchBar').disabled = !enable;
+      document.getElementById('otherElement').disabled = !enable;
+    }
+    // On load, check expiry
+    updateExpiryStatus();
+    // Check every minute for expiry
+    setInterval(updateExpiryStatus, 60000);
         // --- THEME TOGGLE LOGIC ---
         const themeToggleBtn = document.getElementById('theme-toggle');
         const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
