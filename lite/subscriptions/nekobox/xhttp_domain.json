@@ -98,8 +98,9 @@
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [30]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
-                "🇺🇸 US | 🔓 VLESS | @lranonline_new [10]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
                 "🚩 CF | 🔒 VLESS | @manzariyeh_rasht [19]",
+                "🚩 CF | 🔒 VLESS | @netmellianti [14]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [11]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
@@ -137,8 +138,9 @@
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [30]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
-                "🇺🇸 US | 🔓 VLESS | @lranonline_new [10]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
                 "🚩 CF | 🔒 VLESS | @manzariyeh_rasht [19]",
+                "🚩 CF | 🔒 VLESS | @netmellianti [14]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [11]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
@@ -437,7 +439,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [10]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
             "type": "vless",
             "server": "CONFiGLiNE.fast.hosting-ip.com",
             "server_port": 80,
@@ -456,6 +458,24 @@
             "tls": {
                 "enabled": true,
                 "server_name": "ham.stepson.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @netmellianti [14]",
+            "type": "vless",
+            "server": "rde.datgame.info",
+            "server_port": 2087,
+            "uuid": "e05806b7-ebb1-4eed-b196-e75af30f0901",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rde.datgame.info",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
