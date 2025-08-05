@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @config_proxy [37]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [46]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [5]",
@@ -104,7 +104,6 @@
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
-                "❔ XX | 🔓 VLESS | @lranonline_new [3]",
                 "❔ XX | 🔓 VLESS | @parsashonam [2]",
                 "❔ XX | 🔓 VLESS | @parsashonam [4]",
                 "❔ XX | 🔓 VLESS | @parsashonam [6]",
@@ -125,8 +124,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @config_proxy [37]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [46]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [5]",
@@ -137,7 +136,6 @@
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
-                "❔ XX | 🔓 VLESS | @lranonline_new [3]",
                 "❔ XX | 🔓 VLESS | @parsashonam [2]",
                 "❔ XX | 🔓 VLESS | @parsashonam [4]",
                 "❔ XX | 🔓 VLESS | @parsashonam [6]",
@@ -234,33 +232,6 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [37]",
-            "type": "vless",
-            "server": "[2a03:b0c0:3:f0:0:1:230e:f000]",
-            "server_port": 27270,
-            "uuid": "1b38f1a4-5d20-44a9-a4d3-ca621ebfefbf",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "OMYgAO-fEdI3x7diLQDd2-xTkEMNNCeeYDhuweqex0c",
-                    "short_id": "ab"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
-            }
-        },
-        {
             "tag": "❔ XX | 🔒 VLESS | @deli_servers [2]",
             "type": "vless",
             "server": "[2a01:4f8:c012:81c0::1]",
@@ -286,6 +257,15 @@
                 "type": "grpc",
                 "service_name": "/tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers"
             }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @fastfreeconfig [46]",
+            "type": "vless",
+            "server": "[2a01:4f8:1c1a:dc2b::1]",
+            "server_port": 8888,
+            "uuid": "Parsashonam-295",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
@@ -463,15 +443,6 @@
                     "short_id": ""
                 }
             }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @lranonline_new [3]",
-            "type": "vless",
-            "server": "[2a01:4f8:1c1a:dc2b::1]",
-            "server_port": 8888,
-            "uuid": "Parsashonam-295",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @parsashonam [2]",

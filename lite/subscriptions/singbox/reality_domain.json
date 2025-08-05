@@ -102,6 +102,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @confing_chanel [7]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [56]",
                 "🇫🇮 FI | 🔒 VLESS | @freakconfig [15]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
@@ -115,7 +116,6 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇩🇪 DE | 🔒 VLESS | @netmellianti [12]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [11]",
@@ -164,6 +164,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @confing_chanel [7]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [56]",
                 "🇫🇮 FI | 🔒 VLESS | @freakconfig [15]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
@@ -177,7 +178,6 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🇩🇪 DE | 🔒 VLESS | @netmellianti [12]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [11]",
@@ -534,6 +534,33 @@
             }
         },
         {
+            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [56]",
+            "type": "vless",
+            "server": "Tabriz-Website.thorav.ir",
+            "server_port": 443,
+            "uuid": "a7f573cf-f042-4133-8fa5-b24088621d83",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "S9lLMRBlLXUp4RhsWgDvTubO0znlS5e7xTARW_9ajB8",
+                    "short_id": "b1417d"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry"
+            }
+        },
+        {
             "tag": "🇫🇮 FI | 🔒 VLESS | @freakconfig [15]",
             "type": "vless",
             "server": "direct.yasharteam.com",
@@ -862,29 +889,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Hossien"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @netmellianti [12]",
-            "type": "vless",
-            "server": "free.blackwhiteraven.com",
-            "server_port": 2090,
-            "uuid": "a4f109ac-590e-4c6f-9dcc-6ec0b236d04d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo",
-                    "short_id": ""
-                }
             }
         },
         {
