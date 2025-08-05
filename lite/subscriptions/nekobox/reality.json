@@ -137,10 +137,10 @@
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [39]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @confing_chanel [9]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
-                "🇩🇪 DE | 🔒 VLESS | @dalton_ping [6]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
@@ -268,10 +268,10 @@
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [39]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @confing_chanel [9]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
-                "🇩🇪 DE | 🔒 VLESS | @dalton_ping [6]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
@@ -1805,6 +1805,29 @@
             }
         },
         {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [39]",
+            "type": "vless",
+            "server": "83.166.237.90",
+            "server_port": 443,
+            "uuid": "6a428f79-74e5-4e7c-be44-8615d037b495",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "maviks.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ",
+                    "short_id": "0f917152a871e9c0"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -1874,29 +1897,6 @@
                     "enabled": true,
                     "public_key": "4Xu_jqRD-mbhEwNyntlz_6zU4VhsE0-QWCxAbhEL_H4",
                     "short_id": "7ab467"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @dalton_ping [6]",
-            "type": "vless",
-            "server": "212.95.41.20",
-            "server_port": 900,
-            "uuid": "5a998931-c4be-4441-8a0d-81ffe55b5c64",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "I_6r2_l9eY9wBf3OIV7V-HcNJ4LuwxKM99gXUZaYAzI",
-                    "short_id": "2cc45a0088671249"
                 }
             }
         },
