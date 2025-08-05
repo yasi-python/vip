@@ -110,7 +110,9 @@
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [30]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [10]",
                 "🚩 CF | 🔒 VLESS | @manzariyeh_rasht [19]",
+                "🇦🇲 AM | 🔒 VLESS | @orange_vpns [11]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [14]",
@@ -136,8 +138,8 @@
                 "🇺🇸 US | 🔓 VLESS | @v2rayngfreee [4]",
                 "🇫🇮 FI | 🔓 VLESS | @v2rayngfreee [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [8]"
+                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [5]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [7]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -166,7 +168,9 @@
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [30]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [10]",
                 "🚩 CF | 🔒 VLESS | @manzariyeh_rasht [19]",
+                "🇦🇲 AM | 🔒 VLESS | @orange_vpns [11]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [14]",
@@ -192,8 +196,8 @@
                 "🇺🇸 US | 🔓 VLESS | @v2rayngfreee [4]",
                 "🇫🇮 FI | 🔓 VLESS | @v2rayngfreee [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [8]"
+                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [5]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [7]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -479,6 +483,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [10]",
+            "type": "vless",
+            "server": "CONFiGLiNE.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "a1adf38b-3055-4865-a46e-15e62f4a0e4c",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @manzariyeh_rasht [19]",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -493,6 +506,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇲 AM | 🔒 VLESS | @orange_vpns [11]",
+            "type": "vless",
+            "server": "or1.pmme.top",
+            "server_port": 443,
+            "uuid": "35ebf266-908d-4f1e-abea-fbc69816a46f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.parspack.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xfzizKASi1RDkMp0lU9CKVNbcKCL5KzdgIzZjF1d_AI",
+                    "short_id": "6b"
                 }
             }
         },
@@ -935,7 +971,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [5]",
             "type": "vless",
             "server": "91.99.239.156",
             "server_port": 8443,
@@ -944,7 +980,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [8]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [7]",
             "type": "vless",
             "server": "91.99.219.10",
             "server_port": 443,

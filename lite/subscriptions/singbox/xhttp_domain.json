@@ -110,7 +110,9 @@
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [30]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [10]",
                 "🚩 CF | 🔒 VLESS | @manzariyeh_rasht [19]",
+                "🇦🇲 AM | 🔒 VLESS | @orange_vpns [11]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [14]",
@@ -147,7 +149,9 @@
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [30]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [10]",
                 "🚩 CF | 🔒 VLESS | @manzariyeh_rasht [19]",
+                "🇦🇲 AM | 🔒 VLESS | @orange_vpns [11]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [14]",
@@ -441,6 +445,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [10]",
+            "type": "vless",
+            "server": "CONFiGLiNE.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "a1adf38b-3055-4865-a46e-15e62f4a0e4c",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @manzariyeh_rasht [19]",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -455,6 +468,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇲 AM | 🔒 VLESS | @orange_vpns [11]",
+            "type": "vless",
+            "server": "or1.pmme.top",
+            "server_port": 443,
+            "uuid": "35ebf266-908d-4f1e-abea-fbc69816a46f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.parspack.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xfzizKASi1RDkMp0lU9CKVNbcKCL5KzdgIzZjF1d_AI",
+                    "short_id": "6b"
                 }
             }
         },
