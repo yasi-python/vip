@@ -85,7 +85,9 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [7]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [9]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [17]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [29]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
+                "🇺🇸 US | 🔓 VLESS | @configshubplus [18]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [10]",
@@ -109,6 +111,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [19]",
                 "🇩🇪 DE | 🔒 VLESS | @expressvpn_420 [30]",
                 "🇺🇸 US | 🔓 VLESS | @farahvpn [16]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [47]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [3]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
@@ -116,8 +119,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [6]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [9]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [17]",
-                "🇺🇸 US | 🔓 VLESS | @free_serverir [30]",
-                "❔ XX | 🔓 VLESS | @game_file2020 [2]",
                 "🇩🇪 DE | 🔒 VLESS | @game_file2020 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇫🇷 FR | 🔒 VLESS | @grizzlyvpn [2]",
@@ -164,7 +165,9 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [7]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [9]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [17]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [29]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
+                "🇺🇸 US | 🔓 VLESS | @configshubplus [18]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [10]",
@@ -188,6 +191,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [19]",
                 "🇩🇪 DE | 🔒 VLESS | @expressvpn_420 [30]",
                 "🇺🇸 US | 🔓 VLESS | @farahvpn [16]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [47]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [3]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
@@ -195,8 +199,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [6]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [9]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [17]",
-                "🇺🇸 US | 🔓 VLESS | @free_serverir [30]",
-                "❔ XX | 🔓 VLESS | @game_file2020 [2]",
                 "🇩🇪 DE | 🔒 VLESS | @game_file2020 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [7]",
                 "🇫🇷 FR | 🔒 VLESS | @grizzlyvpn [2]",
@@ -377,11 +379,43 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [29]",
+            "type": "vless",
+            "server": "nl.2.tryfreenet24.xyz",
+            "server_port": 8023,
+            "uuid": "ViP_Fragmemt_V2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.xom",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IeLdc7dCgdzACeAK1wq4rxuuBmp9kTh4Wq_pjZhJeXo",
+                    "short_id": "62e9"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔓 VLESS | @configscenter [2]",
             "type": "vless",
             "server": "2sudo.winapp3.ir",
             "server_port": 80,
             "uuid": "5b0e1347-1e9b-4b83-a27b-468e3dafb69b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @configshubplus [18]",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -630,6 +664,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "❔ XX | 🔓 VLESS | @fastfreeconfig [47]",
+            "type": "vless",
+            "server": "VNodePro.Vgyop.com",
+            "server_port": 80,
+            "uuid": "fe1b055b-0881-4a65-a996-b8c758966137",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @fastshovpn [1]",
             "type": "vless",
             "server": "FASTSHOVPNTELEGRAM.fast.hosting-ip.com",
@@ -718,24 +761,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @free_serverir [30]",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @game_file2020 [2]",
-            "type": "vless",
-            "server": "VNodePro.Vgyop.com",
-            "server_port": 80,
-            "uuid": "fe1b055b-0881-4a65-a996-b8c758966137",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @game_file2020 [3]",
