@@ -104,7 +104,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [6]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [5]",
                 "🇩🇪 DE | 🔒 VLESS | @farahvpn [10]",
-                "🚩 CF | 🔒 VLESS | @fastfreeconfig [55]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [4]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
@@ -125,6 +124,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [5]",
                 "🚩 CF | 🔒 VLESS | @proxie [3]",
                 "🚩 CF | 🔒 VLESS | @proxie [5]",
+                "🚩 CF | 🔒 VLESS | @proxie [6]",
                 "🚩 CF | 🔒 VLESS | @proxie [7]",
                 "🚩 CF | 🔒 VLESS | @proxie [10]",
                 "🚩 CF | 🔒 VLESS | @proxie [12]",
@@ -135,7 +135,7 @@
                 "🇴🇲 OM | 🔓 VLESS | @selinc [5]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raych [19]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [11]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -181,7 +181,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [6]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [5]",
                 "🇩🇪 DE | 🔒 VLESS | @farahvpn [10]",
-                "🚩 CF | 🔒 VLESS | @fastfreeconfig [55]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [4]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
@@ -202,6 +201,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [5]",
                 "🚩 CF | 🔒 VLESS | @proxie [3]",
                 "🚩 CF | 🔒 VLESS | @proxie [5]",
+                "🚩 CF | 🔒 VLESS | @proxie [6]",
                 "🚩 CF | 🔒 VLESS | @proxie [7]",
                 "🚩 CF | 🔒 VLESS | @proxie [10]",
                 "🚩 CF | 🔒 VLESS | @proxie [12]",
@@ -212,7 +212,7 @@
                 "🇴🇲 OM | 🔓 VLESS | @selinc [5]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raych [19]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [11]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -468,24 +468,6 @@
                     "enabled": true,
                     "public_key": "hP4TGbnaexWt-MKrFPd67DoFwSmr-o72GILwFvmZxiA",
                     "short_id": "d3c49afc00"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @fastfreeconfig [55]",
-            "type": "vless",
-            "server": "104.21.62.144",
-            "server_port": 443,
-            "uuid": "c5c7f099-17fa-40d6-8217-d3f5e44f555f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "varda2.manwe.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
@@ -785,6 +767,24 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @proxie [6]",
+            "type": "vless",
+            "server": "104.21.62.144",
+            "server_port": 443,
+            "uuid": "c5c7f099-17fa-40d6-8217-d3f5e44f555f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "varda2.manwe.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @proxie [7]",
             "type": "vless",
             "server": "104.21.62.144",
@@ -962,7 +962,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [19]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [11]",
             "type": "vless",
             "server": "209.250.243.231",
             "server_port": 44914,
