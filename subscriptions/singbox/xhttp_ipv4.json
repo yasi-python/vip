@@ -94,18 +94,18 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [9]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [14]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [39]",
                 "🇩🇪 DE | 🔓 VLESS | @configfa [13]",
-                "🇩🇪 DE | 🔓 VLESS | @configshubplus [13]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [6]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
-                "🇩🇪 DE | 🔒 VLESS | @dalton_ping [3]",
+                "🇩🇪 DE | 🔒 VLESS | @dalton_ping [2]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [3]",
                 "🇩🇪 DE | 🔒 VLESS | @farahvpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [54]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [4]",
+                "🇺🇸 US | 🔓 VLESS | @fastkanfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇴🇲 OM | 🔓 VLESS | @freakconfig [6]",
                 "🇸🇦 SA | 🔓 VLESS | @freakconfig [11]",
@@ -119,7 +119,7 @@
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
-                "🇩🇪 DE | 🔒 VLESS | @netmellianti [7]",
+                "🇩🇪 DE | 🔒 VLESS | @netmellianti [6]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [3]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [5]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
@@ -168,18 +168,18 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [9]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [14]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [39]",
                 "🇩🇪 DE | 🔓 VLESS | @configfa [13]",
-                "🇩🇪 DE | 🔓 VLESS | @configshubplus [13]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [6]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
-                "🇩🇪 DE | 🔒 VLESS | @dalton_ping [3]",
+                "🇩🇪 DE | 🔒 VLESS | @dalton_ping [2]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [3]",
                 "🇩🇪 DE | 🔒 VLESS | @farahvpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [54]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [4]",
+                "🇺🇸 US | 🔓 VLESS | @fastkanfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇴🇲 OM | 🔓 VLESS | @freakconfig [6]",
                 "🇸🇦 SA | 🔓 VLESS | @freakconfig [11]",
@@ -193,7 +193,7 @@
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
-                "🇩🇪 DE | 🔒 VLESS | @netmellianti [7]",
+                "🇩🇪 DE | 🔒 VLESS | @netmellianti [6]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [3]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [5]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
@@ -334,18 +334,32 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [39]",
+            "type": "vless",
+            "server": "185.226.181.227",
+            "server_port": 2055,
+            "uuid": "5990e261-1942-4983-aa40-3f585a699fae",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "kifpool.me",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uUxB4kGyHwy-oKZ6mKoXTIWsXJGsDLop9NiRd0B36zI",
+                    "short_id": "54994c92a0"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @configfa [13]",
             "type": "vless",
             "server": "91.99.218.14",
-            "server_port": 8443,
-            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @configshubplus [13]",
-            "type": "vless",
-            "server": "91.99.98.90",
             "server_port": 8443,
             "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
@@ -411,7 +425,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @dalton_ping [3]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @dalton_ping [2]",
             "type": "vless",
             "server": "212.95.41.20",
             "server_port": 900,
@@ -480,7 +494,16 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [54]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @fastkanfig [4]",
+            "type": "vless",
+            "server": "151.101.67.8",
+            "server_port": 80,
+            "uuid": "turboo-server",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @fastkanfig [8]",
             "type": "vless",
             "server": "216.22.5.96",
             "server_port": 443,
@@ -496,15 +519,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @fastkanfig [4]",
-            "type": "vless",
-            "server": "151.101.67.8",
-            "server_port": 80,
-            "uuid": "turboo-server",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
@@ -684,7 +698,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @netmellianti [7]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @netmellianti [6]",
             "type": "vless",
             "server": "212.95.41.20",
             "server_port": 900,
