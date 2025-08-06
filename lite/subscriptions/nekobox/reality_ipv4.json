@@ -82,19 +82,19 @@
                 "KingRezaPahlavi",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [17]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [36]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @confing_chanel [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [3]",
-                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [60]",
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇫🇮 FI | 🔒 VLESS | @flyv2ray [13]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [9]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
-                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [18]",
+                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [15]",
                 "🇩🇪 DE | 🔒 VLESS | @ghalagyann2 [4]",
                 "🇩🇪 DE | 🔒 VLESS | @ghalagyann2 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
@@ -155,19 +155,19 @@
                 "KingRezaPahlavi",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [17]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [36]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @confing_chanel [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [3]",
-                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [60]",
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇫🇮 FI | 🔒 VLESS | @flyv2ray [13]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [9]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
-                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [18]",
+                "🇩🇪 DE | 🔒 VLESS | @ghalagyann [15]",
                 "🇩🇪 DE | 🔒 VLESS | @ghalagyann2 [4]",
                 "🇩🇪 DE | 🔒 VLESS | @ghalagyann2 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
@@ -356,6 +356,29 @@
             }
         },
         {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [36]",
+            "type": "vless",
+            "server": "159.65.215.131",
+            "server_port": 44486,
+            "uuid": "ef4b62a4-9cf3-43a4-999c-fcb06eb99b18",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4Iu8Qa-XePGCSkg0_W_KEUV7bJj7ysmfAYsOJvZsFxM",
+                    "short_id": "1b74288a"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -502,33 +525,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [60]",
-            "type": "vless",
-            "server": "95.164.16.166",
-            "server_port": 2087,
-            "uuid": "75698d2b-62b2-406a-aa0b-6738fe12e73f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UmfiIOjfgdKF7C2cWhO-rzHeKHHxONToNSjTNpilA00",
-                    "short_id": "34f2"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry"
-            }
-        },
-        {
             "tag": "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
             "type": "vless",
             "server": "82.153.220.10",
@@ -652,7 +648,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @ghalagyann [18]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @ghalagyann [15]",
             "type": "vless",
             "server": "91.107.135.123",
             "server_port": 24070,
