@@ -102,9 +102,10 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
-                "❔ XX | 🔓 TROJAN | @tgvpn6 [8]",
+                "🇺🇸 US | 🔓 TROJAN | @tgvpn6 [8]",
                 "❔ XX | 🔓 TROJAN | @tgvpn6 [9]",
                 "🇭🇰 HK | 🔓 TROJAN | @tgvpn6 [12]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [8]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -149,9 +150,10 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
-                "❔ XX | 🔓 TROJAN | @tgvpn6 [8]",
+                "🇺🇸 US | 🔓 TROJAN | @tgvpn6 [8]",
                 "❔ XX | 🔓 TROJAN | @tgvpn6 [9]",
                 "🇭🇰 HK | 🔓 TROJAN | @tgvpn6 [12]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [8]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -665,7 +667,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 TROJAN | @tgvpn6 [8]",
+            "tag": "🇺🇸 US | 🔓 TROJAN | @tgvpn6 [8]",
             "type": "trojan",
             "server": "oss-cn-shanghai.westdatacloud.top",
             "server_port": 20048,
@@ -684,6 +686,29 @@
             "server": "v01.gutingting.com",
             "server_port": 30056,
             "password": "700b38d8-5ec2-42a8-a608-758ee1388231"
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [8]",
+            "type": "trojan",
+            "server": "www.visa.com.sg",
+            "server_port": 8443,
+            "password": "trojan",
+            "tls": {
+                "enabled": true,
+                "server_name": "azadnet-f03.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "azadnet-f03.pages.dev"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
