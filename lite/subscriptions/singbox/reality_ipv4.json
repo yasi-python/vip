@@ -100,7 +100,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [3]",
-                "🇬🇧 GB | 🔒 VLESS | @fastfreeconfig [60]",
+                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [60]",
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇫🇮 FI | 🔒 VLESS | @flyv2ray [13]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
@@ -146,12 +146,13 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayngninja [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
+                "🇳🇱 NL | 🔒 VLESS | @v2ry_proxy [14]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [16]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇧🇪 BE | 🔒 VLESS | @vpnod [10]",
+                "🇧🇪 BE | 🔒 VLESS | @vpnod [9]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]",
                 "🇩🇪 DE | 🔒 VLESS | @x4azadi [15]"
             ],
@@ -172,7 +173,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [3]",
-                "🇬🇧 GB | 🔒 VLESS | @fastfreeconfig [60]",
+                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [60]",
                 "🇬🇧 GB | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇫🇮 FI | 🔒 VLESS | @flyv2ray [13]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
@@ -218,12 +219,13 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayngninja [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
+                "🇳🇱 NL | 🔒 VLESS | @v2ry_proxy [14]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [16]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇧🇪 BE | 🔒 VLESS | @vpnod [10]",
+                "🇧🇪 BE | 🔒 VLESS | @vpnod [9]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]",
                 "🇩🇪 DE | 🔒 VLESS | @x4azadi [15]"
             ],
@@ -508,26 +510,30 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @fastfreeconfig [60]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [60]",
             "type": "vless",
-            "server": "83.147.18.191",
-            "server_port": 4653,
-            "uuid": "d9bd2578-dc93-40cc-87ab-69a915a0baad",
+            "server": "95.164.16.166",
+            "server_port": 2087,
+            "uuid": "75698d2b-62b2-406a-aa0b-6738fe12e73f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "www.cdn77.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "g23nq_R9TIMbMIGQHB6gjDNewFzrHXPcj72bTS-RtX8",
-                    "short_id": "a1b2c3d4e5f67890"
+                    "public_key": "UmfiIOjfgdKF7C2cWhO-rzHeKHHxONToNSjTNpilA00",
+                    "short_id": "34f2"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry"
             }
         },
         {
@@ -1637,6 +1643,29 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2ry_proxy [14]",
+            "type": "vless",
+            "server": "85.234.65.120",
+            "server_port": 443,
+            "uuid": "2a562107-43a6-40a4-a35e-e01e6f21684e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ng4h6xKU-cqoC_T4U9_wGbYlFqpj9RJbsWVR4AJ_MSo",
+                    "short_id": "e2"
+                }
+            }
+        },
+        {
             "tag": "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
             "type": "vless",
             "server": "194.113.106.139",
@@ -1752,7 +1781,7 @@
             }
         },
         {
-            "tag": "🇧🇪 BE | 🔒 VLESS | @vpnod [10]",
+            "tag": "🇧🇪 BE | 🔒 VLESS | @vpnod [9]",
             "type": "vless",
             "server": "45.83.20.34",
             "server_port": 58164,
