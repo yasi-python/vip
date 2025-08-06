@@ -82,7 +82,6 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 VLESS | @dalton_ping [8]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔓 VLESS | @fastfreeconfig [51]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [5]",
@@ -98,6 +97,7 @@
                 "❔ XX | 🔓 VLESS | @parsashonam [6]",
                 "❔ XX | 🔓 VLESS | @parsashonam [8]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
+                "❔ XX | 🔓 VLESS | @v2rayngninja [2]",
                 "❔ XX | 🔒 VLESS | @v2raytg [74]",
                 "❔ XX | 🔓 VLESS | @v2ryngfree [6]",
                 "❔ XX | 🔓 VLESS | @v2ryngfree [9]",
@@ -114,7 +114,6 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 VLESS | @dalton_ping [8]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔓 VLESS | @fastfreeconfig [51]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [5]",
@@ -130,6 +129,7 @@
                 "❔ XX | 🔓 VLESS | @parsashonam [6]",
                 "❔ XX | 🔓 VLESS | @parsashonam [8]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
+                "❔ XX | 🔓 VLESS | @v2rayngninja [2]",
                 "❔ XX | 🔒 VLESS | @v2raytg [74]",
                 "❔ XX | 🔓 VLESS | @v2ryngfree [6]",
                 "❔ XX | 🔓 VLESS | @v2ryngfree [9]",
@@ -257,22 +257,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "/tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers"
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @fastfreeconfig [51]",
-            "type": "vless",
-            "server": "[::ffff:6812:cae8]",
-            "server_port": 8080,
-            "uuid": "c3077f1d-3b94-4a83-aecb-f4e9beb4dc7e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "[::ffff:6812:cae8]"
-                }
             }
         },
         {
@@ -501,6 +485,22 @@
                 "path": "/",
                 "headers": {
                     "Host": "[::ffff:b992:ad3b]"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @v2rayngninja [2]",
+            "type": "vless",
+            "server": "[::ffff:6812:cae8]",
+            "server_port": 8080,
+            "uuid": "c3077f1d-3b94-4a83-aecb-f4e9beb4dc7e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "[::ffff:6812:cae8]"
                 }
             }
         },
