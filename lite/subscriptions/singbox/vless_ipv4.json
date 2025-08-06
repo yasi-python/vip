@@ -113,7 +113,8 @@
                 "🚩 CF | 🔒 VLESS | @canfing_vpn [18]",
                 "🚩 CF | 🔓 VLESS | @canfing_vpn [19]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [13]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [38]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [31]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [33]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🚩 CF | 🔓 VLESS | @configfast [2]",
                 "🇫🇮 FI | 🔒 VLESS | @confing_chanel [9]",
@@ -138,6 +139,8 @@
                 "🚩 CF | 🔒 VLESS | @farahvpn [18]",
                 "🇮🇷 IR | 🔓 VLESS | @farstar_vpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @fasst_vpn [1]",
+                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [58]",
+                "🚩 CF | 🔓 VLESS | @fastfreeconfig [59]",
                 "🚩 CF | 🔓 VLESS | @father_vpn [2]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [15]",
                 "🚩 CF | 🔓 VLESS | @filterk0sh [16]",
@@ -280,7 +283,6 @@
                 "🚩 CF | 🔓 VLESS | @renetvpn [11]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔓 VLESS | @savagev2ray [12]",
-                "🚩 CF | 🔓 VLESS | @selinc [4]",
                 "🇦🇲 AM | 🔓 VLESS | @server444 [2]",
                 "🇦🇲 AM | 🔓 VLESS | @server444 [3]",
                 "🇳🇱 NL | 🔓 VLESS | @sobi_vpn [8]",
@@ -416,7 +418,8 @@
                 "🚩 CF | 🔒 VLESS | @canfing_vpn [18]",
                 "🚩 CF | 🔓 VLESS | @canfing_vpn [19]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [13]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [38]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [31]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [33]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🚩 CF | 🔓 VLESS | @configfast [2]",
                 "🇫🇮 FI | 🔒 VLESS | @confing_chanel [9]",
@@ -441,6 +444,8 @@
                 "🚩 CF | 🔒 VLESS | @farahvpn [18]",
                 "🇮🇷 IR | 🔓 VLESS | @farstar_vpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @fasst_vpn [1]",
+                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [58]",
+                "🚩 CF | 🔓 VLESS | @fastfreeconfig [59]",
                 "🚩 CF | 🔓 VLESS | @father_vpn [2]",
                 "🇺🇸 US | 🔓 VLESS | @filterk0sh [15]",
                 "🚩 CF | 🔓 VLESS | @filterk0sh [16]",
@@ -583,7 +588,6 @@
                 "🚩 CF | 🔓 VLESS | @renetvpn [11]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔓 VLESS | @savagev2ray [12]",
-                "🚩 CF | 🔓 VLESS | @selinc [4]",
                 "🇦🇲 AM | 🔓 VLESS | @server444 [2]",
                 "🇦🇲 AM | 🔓 VLESS | @server444 [3]",
                 "🇳🇱 NL | 🔓 VLESS | @sobi_vpn [8]",
@@ -1146,13 +1150,50 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [38]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [31]",
             "type": "vless",
-            "server": "172.67.211.227",
-            "server_port": 2082,
-            "uuid": "f882417e-fe9d-4ed5-ac1d-9eccbaf890c0",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "18.246.64.130",
+            "server_port": 4433,
+            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
+                    "short_id": "f785b38130e64177"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [33]",
+            "type": "vless",
+            "server": "91.242.241.45",
+            "server_port": 8443,
+            "uuid": "9da5536b-bdd2-4384-abd4-6993e7b19dae",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4zAw3GMbZYfbIcFxs4QqFATUkVD71pJ-Jw8z7Nvpc2c",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -1604,6 +1645,31 @@
             "uuid": "bf86e56d-869e-4967-f675-d832cf5ec63e",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [58]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "0b4e0f6a-98a2-468a-910f-4a0b3fbeec36",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @fastfreeconfig [59]",
+            "type": "vless",
+            "server": "104.21.112.1",
+            "server_port": 80,
+            "uuid": "2036e2c3-18a5-4eed-9db4-f91a7f02c7d5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/193.123.81.105=443",
+                "headers": {
+                    "Host": "104.21.112.1"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @father_vpn [2]",
@@ -4238,22 +4304,6 @@
                 "path": "/@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy?ed=2048",
                 "headers": {
                     "Host": "104.19.54.50"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @selinc [4]",
-            "type": "vless",
-            "server": "104.21.112.1",
-            "server_port": 80,
-            "uuid": "2036e2c3-18a5-4eed-9db4-f91a7f02c7d5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/193.123.81.105=443",
-                "headers": {
-                    "Host": "104.21.112.1"
                 }
             }
         },

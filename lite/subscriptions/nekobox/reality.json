@@ -133,6 +133,8 @@
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [17]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [31]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [33]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @confing_chanel [9]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -257,6 +259,8 @@
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [11]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [17]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [31]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [33]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @confing_chanel [9]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -1700,6 +1704,52 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [31]",
+            "type": "vless",
+            "server": "18.246.64.130",
+            "server_port": 4433,
+            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
+                    "short_id": "f785b38130e64177"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [33]",
+            "type": "vless",
+            "server": "91.242.241.45",
+            "server_port": 8443,
+            "uuid": "9da5536b-bdd2-4384-abd4-6993e7b19dae",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4zAw3GMbZYfbIcFxs4QqFATUkVD71pJ-Jw8z7Nvpc2c",
+                    "short_id": ""
+                }
             }
         },
         {
