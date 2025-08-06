@@ -106,6 +106,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @netmellianti [12]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
+                "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [15]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
@@ -120,7 +121,6 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇫🇷 FR | 🔒 VLESS | @v2graphy [12]",
                 "🇳🇱 NL | 🔒 VLESS | @v2graphy [13]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [9]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
@@ -166,6 +166,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @netmellianti [12]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
+                "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [15]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [4]",
@@ -180,7 +181,6 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇫🇷 FR | 🔒 VLESS | @v2graphy [12]",
                 "🇳🇱 NL | 🔒 VLESS | @v2graphy [13]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [9]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
@@ -934,6 +934,29 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @outlinev2rayng [15]",
+            "type": "vless",
+            "server": "nl01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "4a640781-f5c8-4d17-80db-a6b0a091ba05",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "d3b13f31"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
             "type": "vless",
             "server": "iran.nikirani.sfree.persianmemberiranmember.shop",
@@ -1260,29 +1283,6 @@
                     "enabled": true,
                     "public_key": "RLUQT-hMZPmNWtDE67gs8osxdeASKAnARAmNs9bs0l0",
                     "short_id": "fdf18126a0768480"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [9]",
-            "type": "vless",
-            "server": "nl01-vlr01.tcp-reset-club.net",
-            "server_port": 443,
-            "uuid": "4a640781-f5c8-4d17-80db-a6b0a091ba05",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-                    "short_id": "d3b13f31"
                 }
             }
         },
