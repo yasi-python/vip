@@ -84,8 +84,9 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🇧🇬 BG | 🔓 TROJAN | @hope_net [18]",
-                "🇺🇸 US | 🔓 TROJAN | @hope_net [20]",
+                "🇺🇸 US | 🔓 TROJAN | @hope_net [18]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -100,7 +101,6 @@
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [11]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [12]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "❔ XX | 🔒 TROJAN | @fastfreeconfig [57]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
@@ -120,8 +120,9 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🇧🇬 BG | 🔓 TROJAN | @hope_net [18]",
-                "🇺🇸 US | 🔓 TROJAN | @hope_net [20]",
+                "🇺🇸 US | 🔓 TROJAN | @hope_net [18]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -136,7 +137,6 @@
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [11]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [12]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "❔ XX | 🔒 TROJAN | @fastfreeconfig [57]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
@@ -303,14 +303,14 @@
             }
         },
         {
-            "tag": "🇧🇬 BG | 🔓 TROJAN | @hope_net [18]",
+            "tag": "🇺🇸 US | 🔓 TROJAN | @hope_net [18]",
             "type": "trojan",
-            "server": "89.117.112.181",
+            "server": "159.246.55.202",
             "server_port": 443,
-            "password": "bpb-trojan",
+            "password": "NISHIKUITAN111",
             "tls": {
                 "enabled": true,
-                "server_name": "bpb.my79801.com",
+                "server_name": "159.246.55.202",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -319,14 +319,30 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 TROJAN | @hope_net [20]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [19]",
             "type": "trojan",
-            "server": "159.246.55.202",
+            "server": "198.41.201.193",
             "server_port": 443,
             "password": "NISHIKUITAN111",
             "tls": {
                 "enabled": true,
-                "server_name": "159.246.55.202",
+                "server_name": "198.41.201.193",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "172.64.205.164",
+            "server_port": 443,
+            "password": "NISHIKUITAN111",
+            "tls": {
+                "enabled": true,
+                "server_name": "172.64.205.164",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -560,22 +576,6 @@
                 "path": "/trojan-ntls",
                 "headers": {
                     "Host": "asia.artunnel57.host"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 TROJAN | @fastfreeconfig [57]",
-            "type": "trojan",
-            "server": "asia.artunnel57.host",
-            "server_port": 443,
-            "password": "04dce2ad-97b3-445a-b26b-dc1b9a58914f",
-            "tls": {
-                "enabled": true,
-                "server_name": "asia.artunnel57.host",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
