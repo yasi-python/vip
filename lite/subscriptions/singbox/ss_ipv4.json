@@ -105,8 +105,8 @@
                 "🇸🇬 SG | 🔒 SS | @freakconfig [15]",
                 "🇹🇷 TR | 🔒 SS | @free1_vpn [5]",
                 "🇸🇬 SG | 🔒 SS | @free1_vpn [6]",
-                "🇬🇧 GB | 🔒 SS | @free1ss [15]",
-                "🇭🇰 HK | 🔒 SS | @free1ss [16]",
+                "🇭🇰 HK | 🔒 SS | @free1ss [15]",
+                "🇳🇱 NL | 🔒 SS | @free1ss [16]",
                 "🇳🇱 NL | 🔒 SS | @free1ss [17]",
                 "🇩🇪 DE | 🔒 SS | @freev2raym [9]",
                 "🇳🇱 NL | 🔒 SS | @freevirgoolnet [7]",
@@ -143,8 +143,8 @@
                 "🇳🇱 NL | 🔒 SS | @v2ray_v_vpn [44]",
                 "🇹🇷 TR | 🔒 SS | @v_2ray1 [12]",
                 "🇩🇪 DE | 🔒 SS | @v_2ray1 [13]",
-                "🇳🇴 NO | 🔒 SS | @vmesc [18]",
-                "🇨🇦 CA | 🔒 SS | @vmess_ir [16]",
+                "🇳🇴 NO | 🔒 SS | @vmesc [17]",
+                "🇸🇬 SG | 🔒 SS | @vmess_ir [16]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [20]",
                 "🇺🇸 US | 🔒 SS | @vpngate_config [18]"
             ],
@@ -170,8 +170,8 @@
                 "🇸🇬 SG | 🔒 SS | @freakconfig [15]",
                 "🇹🇷 TR | 🔒 SS | @free1_vpn [5]",
                 "🇸🇬 SG | 🔒 SS | @free1_vpn [6]",
-                "🇬🇧 GB | 🔒 SS | @free1ss [15]",
-                "🇭🇰 HK | 🔒 SS | @free1ss [16]",
+                "🇭🇰 HK | 🔒 SS | @free1ss [15]",
+                "🇳🇱 NL | 🔒 SS | @free1ss [16]",
                 "🇳🇱 NL | 🔒 SS | @free1ss [17]",
                 "🇩🇪 DE | 🔒 SS | @freev2raym [9]",
                 "🇳🇱 NL | 🔒 SS | @freevirgoolnet [7]",
@@ -208,8 +208,8 @@
                 "🇳🇱 NL | 🔒 SS | @v2ray_v_vpn [44]",
                 "🇹🇷 TR | 🔒 SS | @v_2ray1 [12]",
                 "🇩🇪 DE | 🔒 SS | @v_2ray1 [13]",
-                "🇳🇴 NO | 🔒 SS | @vmesc [18]",
-                "🇨🇦 CA | 🔒 SS | @vmess_ir [16]",
+                "🇳🇴 NO | 🔒 SS | @vmesc [17]",
+                "🇸🇬 SG | 🔒 SS | @vmess_ir [16]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [20]",
                 "🇺🇸 US | 🔒 SS | @vpngate_config [18]"
             ],
@@ -402,15 +402,7 @@
             "password": "24Wk2NSszrfHn22zem1lYV"
         },
         {
-            "tag": "🇬🇧 GB | 🔒 SS | @free1ss [15]",
-            "type": "shadowsocks",
-            "server": "89.185.84.185",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "8xw9vHiGOc4Q6BpQYmnvsB"
-        },
-        {
-            "tag": "🇭🇰 HK | 🔒 SS | @free1ss [16]",
+            "tag": "🇭🇰 HK | 🔒 SS | @free1ss [15]",
             "type": "shadowsocks",
             "server": "18.162.146.85",
             "server_port": 8319,
@@ -418,9 +410,17 @@
             "password": "ljqdalu13.."
         },
         {
-            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [17]",
+            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [16]",
             "type": "shadowsocks",
             "server": "193.29.139.160",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [17]",
+            "type": "shadowsocks",
+            "server": "193.29.139.144",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "oZIoA69Q8yhcQV8ka3Pa3A"
@@ -706,7 +706,7 @@
             "password": "NGQzMzQz"
         },
         {
-            "tag": "🇳🇴 NO | 🔒 SS | @vmesc [18]",
+            "tag": "🇳🇴 NO | 🔒 SS | @vmesc [17]",
             "type": "shadowsocks",
             "server": "185.213.23.226",
             "server_port": 990,
@@ -714,12 +714,12 @@
             "password": "f8f7aCzcPKbsF8p3"
         },
         {
-            "tag": "🇨🇦 CA | 🔒 SS | @vmess_ir [16]",
+            "tag": "🇸🇬 SG | 🔒 SS | @vmess_ir [16]",
             "type": "shadowsocks",
-            "server": "142.4.216.225",
-            "server_port": 80,
+            "server": "18.139.0.110",
+            "server_port": 8313,
             "method": "chacha20-ietf-poly1305",
-            "password": "JIhN6rBKkaEboLNXVSv5rq"
+            "password": "ljqdalu13.."
         },
         {
             "tag": "🇺🇸 US | 🔒 SS | @vmessiranproxy [20]",

@@ -101,6 +101,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
+                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [58]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -113,7 +114,6 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🚩 CF | 🔒 VLESS | @mahan_ping [11]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇬🇧 GB | 🔒 VLESS | @outline_ir [16]",
@@ -161,6 +161,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
+                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [58]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -173,7 +174,6 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @lexernet [12]",
-                "🚩 CF | 🔒 VLESS | @mahan_ping [11]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇬🇧 GB | 🔒 VLESS | @outline_ir [16]",
@@ -507,6 +507,29 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [58]",
+            "type": "vless",
+            "server": "nl01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "39028f63-4adc-4a2c-9a57-9f583cd284e9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "d3b13f31"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @fsv2ray [2]",
             "type": "vless",
             "server": "FsV2ray.t-sub.site",
@@ -812,33 +835,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Hossien"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @mahan_ping [11]",
-            "type": "vless",
-            "server": "w1.wtezar.site",
-            "server_port": 24070,
-            "uuid": "7c2f01ca-65c1-489a-b1c7-107bb5cdaaeb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Wkuh9iexXuhWaaFt1saCWk8iGS0h1mEiMtDsmoJSgAk",
-                    "short_id": "93"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--"
             }
         },
         {
