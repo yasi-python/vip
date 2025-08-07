@@ -100,14 +100,15 @@
                 "🇺🇸 US | 🔒 SS | @nepo_v2ray [19]",
                 "🇺🇸 US | 🔒 SS | @ntgreenplus [1]",
                 "❔ XX | 🔒 SS | @proxy_confiingir [2]",
+                "🇩🇪 DE | 🔒 SS | @prrofile_purple [124]",
                 "❔ XX | 🔒 SS | @public504 [8]",
                 "❔ XX | 🔒 SS | @public504 [9]",
                 "❔ XX | 🔒 SS | @red2ray [1]",
                 "🇺🇸 US | 🔒 SS | @selinc [5]",
                 "🇺🇸 US | 🔒 SS | @serverv2ray00 [14]",
                 "🇦🇪 AE | 🔒 SS | @shadowsockskeys [5]",
-                "🇷🇺 RU | 🔒 SS | @v2raych [11]",
                 "🇳🇱 NL | 🔒 SS | @v2rayngrit [9]",
+                "🇷🇺 RU | 🔒 SS | @v2rayopen [15]",
                 "❔ XX | 🔒 SS | @v2ryngfree [2]",
                 "❔ XX | 🔒 SS | @v_2ray1 [7]",
                 "🇺🇸 US | 🔒 SS | @v_2ray1 [8]",
@@ -121,7 +122,7 @@
                 "🇺🇸 US | 🔒 SS | @vpn451 [14]",
                 "🇯🇵 JP | 🔒 SS | @vpn451 [17]",
                 "❔ XX | 🔒 SS | @vpn_meliii [1]",
-                "🇷🇺 RU | 🔒 SS | @zerobaipiao [12]"
+                "🇷🇺 RU | 🔒 SS | @zerobaipiao [10]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -152,14 +153,15 @@
                 "🇺🇸 US | 🔒 SS | @nepo_v2ray [19]",
                 "🇺🇸 US | 🔒 SS | @ntgreenplus [1]",
                 "❔ XX | 🔒 SS | @proxy_confiingir [2]",
+                "🇩🇪 DE | 🔒 SS | @prrofile_purple [124]",
                 "❔ XX | 🔒 SS | @public504 [8]",
                 "❔ XX | 🔒 SS | @public504 [9]",
                 "❔ XX | 🔒 SS | @red2ray [1]",
                 "🇺🇸 US | 🔒 SS | @selinc [5]",
                 "🇺🇸 US | 🔒 SS | @serverv2ray00 [14]",
                 "🇦🇪 AE | 🔒 SS | @shadowsockskeys [5]",
-                "🇷🇺 RU | 🔒 SS | @v2raych [11]",
                 "🇳🇱 NL | 🔒 SS | @v2rayngrit [9]",
+                "🇷🇺 RU | 🔒 SS | @v2rayopen [15]",
                 "❔ XX | 🔒 SS | @v2ryngfree [2]",
                 "❔ XX | 🔒 SS | @v_2ray1 [7]",
                 "🇺🇸 US | 🔒 SS | @v_2ray1 [8]",
@@ -173,7 +175,7 @@
                 "🇺🇸 US | 🔒 SS | @vpn451 [14]",
                 "🇯🇵 JP | 🔒 SS | @vpn451 [17]",
                 "❔ XX | 🔒 SS | @vpn_meliii [1]",
-                "🇷🇺 RU | 🔒 SS | @zerobaipiao [12]"
+                "🇷🇺 RU | 🔒 SS | @zerobaipiao [10]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -424,6 +426,14 @@
             "password": "u17T3BvpYaaiuW2c"
         },
         {
+            "tag": "🇩🇪 DE | 🔒 SS | @prrofile_purple [124]",
+            "type": "shadowsocks",
+            "server": "de-1.stunnel.cc",
+            "server_port": 8444,
+            "method": "chacha20-ietf-poly1305",
+            "password": "tunnel-astrovpn_official-de"
+        },
+        {
             "tag": "❔ XX | 🔒 SS | @public504 [8]",
             "type": "shadowsocks",
             "server": "seoul.dodohee.info",
@@ -472,20 +482,20 @@
             "password": "tunnel-astrovpn_official_ae"
         },
         {
-            "tag": "🇷🇺 RU | 🔒 SS | @v2raych [11]",
-            "type": "shadowsocks",
-            "server": "ss.sps1.sbs",
-            "server_port": 20,
-            "method": "aes-256-gcm",
-            "password": "wN7mMW7WRt5-kW5mTsD4DA"
-        },
-        {
             "tag": "🇳🇱 NL | 🔒 SS | @v2rayngrit [9]",
             "type": "shadowsocks",
             "server": "switcher-nick-croquet.freesocks.work",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "9tqhMdIrTkgQ46PvhyAtMH"
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 SS | @v2rayopen [15]",
+            "type": "shadowsocks",
+            "server": "ss.sps1.sbs",
+            "server_port": 20,
+            "method": "aes-256-gcm",
+            "password": "wN7mMW7WRt5-kW5mTsD4DA"
         },
         {
             "tag": "❔ XX | 🔒 SS | @v2ryngfree [2]",
@@ -592,7 +602,7 @@
             "password": "W74XFALLLuw6m5IA"
         },
         {
-            "tag": "🇷🇺 RU | 🔒 SS | @zerobaipiao [12]",
+            "tag": "🇷🇺 RU | 🔒 SS | @zerobaipiao [10]",
             "type": "shadowsocks",
             "server": "ytreserved.opengate.wiki",
             "server_port": 2222,
