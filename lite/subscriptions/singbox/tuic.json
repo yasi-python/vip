@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔒 TUIC | @goodbyefiltering [6]",
-                "❔ XX | 🔒 TUIC | @goodbyefiltering [7]"
+                "❔ XX | 🔒 TUIC | @fastfreeconfig [59]",
+                "🇫🇮 FI | 🔒 TUIC | @goodbyefiltering [6]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔒 TUIC | @goodbyefiltering [6]",
-                "❔ XX | 🔒 TUIC | @goodbyefiltering [7]"
+                "❔ XX | 🔒 TUIC | @fastfreeconfig [59]",
+                "🇫🇮 FI | 🔒 TUIC | @goodbyefiltering [6]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,6 +192,25 @@
             }
         },
         {
+            "tag": "❔ XX | 🔒 TUIC | @fastfreeconfig [59]",
+            "type": "tuic",
+            "server": "[2a12:5940:71f8::2]",
+            "server_port": 443,
+            "uuid": "7f9a73a3-e455-4053-ae38-f07719753dff",
+            "password": "----Join-Telegram:@IP_CF----",
+            "congestion_control": "cubic",
+            "udp_relay_mode": "native",
+            "tls": {
+                "enabled": true,
+                "server_name": "[2a12:5940:71f8::2]",
+                "insecure": true,
+                "alpn": [
+                    "h3",
+                    "spdy/3.1"
+                ]
+            }
+        },
+        {
             "tag": "🇫🇮 FI | 🔒 TUIC | @goodbyefiltering [6]",
             "type": "tuic",
             "server": "79.137.206.126",
@@ -203,25 +222,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "79.137.206.126",
-                "insecure": true,
-                "alpn": [
-                    "h3",
-                    "spdy/3.1"
-                ]
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 TUIC | @goodbyefiltering [7]",
-            "type": "tuic",
-            "server": "[2a12:5940:71f8::2]",
-            "server_port": 443,
-            "uuid": "7f9a73a3-e455-4053-ae38-f07719753dff",
-            "password": "----Join-Telegram:@IP_CF----",
-            "congestion_control": "cubic",
-            "udp_relay_mode": "native",
-            "tls": {
-                "enabled": true,
-                "server_name": "[2a12:5940:71f8::2]",
                 "insecure": true,
                 "alpn": [
                     "h3",
