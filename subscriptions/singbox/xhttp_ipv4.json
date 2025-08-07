@@ -94,8 +94,8 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [8]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [13]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [17]",
                 "🇩🇪 DE | 🔓 VLESS | @configfa [10]",
+                "🇩🇪 DE | 🔓 VLESS | @configshubplus [4]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -124,8 +124,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [13]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
                 "🚩 CF | 🔒 VLESS | @proxie [4]",
-                "🚩 CF | 🔒 VLESS | @proxie [7]",
-                "🚩 CF | 🔒 VLESS | @proxie [9]",
+                "🚩 CF | 🔒 VLESS | @proxie [6]",
+                "🚩 CF | 🔒 VLESS | @proxie [8]",
                 "🇬🇧 GB | 🔒 VLESS | @proxygodratmand [1]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
@@ -153,7 +153,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [9]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [11]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [13]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]"
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -166,8 +166,8 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [8]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [13]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [17]",
                 "🇩🇪 DE | 🔓 VLESS | @configfa [10]",
+                "🇩🇪 DE | 🔓 VLESS | @configshubplus [4]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -196,8 +196,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [13]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
                 "🚩 CF | 🔒 VLESS | @proxie [4]",
-                "🚩 CF | 🔒 VLESS | @proxie [7]",
-                "🚩 CF | 🔒 VLESS | @proxie [9]",
+                "🚩 CF | 🔒 VLESS | @proxie [6]",
+                "🚩 CF | 🔒 VLESS | @proxie [8]",
                 "🇬🇧 GB | 🔒 VLESS | @proxygodratmand [1]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
@@ -225,7 +225,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [9]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [11]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [13]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]"
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -330,29 +330,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [17]",
-            "type": "vless",
-            "server": "87.120.205.76",
-            "server_port": 1002,
-            "uuid": "10e72fbe-78c9-483b-9ddd-26b33ecd02f6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.jsdelivr.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZR-m-ptbkHU71ZoH-jRM8L1NqSN1rzW738PsSHFwkik",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @configfa [10]",
             "type": "vless",
             "server": "91.99.218.14",
@@ -360,6 +337,24 @@
             "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @configshubplus [4]",
+            "type": "vless",
+            "server": "91.99.233.77",
+            "server_port": 443,
+            "uuid": "0f7e89d6-9f35-4e94-ba4b-509a724dc177",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.233.77",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
@@ -776,7 +771,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @proxie [7]",
+            "tag": "🚩 CF | 🔒 VLESS | @proxie [6]",
             "type": "vless",
             "server": "104.21.62.144",
             "server_port": 443,
@@ -794,7 +789,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @proxie [9]",
+            "tag": "🚩 CF | 🔒 VLESS | @proxie [8]",
             "type": "vless",
             "server": "104.21.62.144",
             "server_port": 443,
@@ -1288,7 +1283,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "91.99.153.233",
             "server_port": 8443,

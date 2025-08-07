@@ -81,6 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [16]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [21]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @confing_chanel [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -100,7 +101,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
-                "🇩🇪 DE | 🔒 VLESS | @kingofilter [5]",
+                "🇩🇪 DE | 🔒 VLESS | @kingofilter [6]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇩🇪 DE | 🔒 VLESS | @mahan_ping [12]",
                 "🇩🇪 DE | 🔒 VLESS | @mahan_ping [13]",
@@ -137,7 +138,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [16]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇧🇪 BE | 🔒 VLESS | @vpnod [9]",
-                "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [19]",
+                "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [18]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]",
                 "🇩🇪 DE | 🔒 VLESS | @x4azadi [15]"
             ],
@@ -151,6 +152,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [16]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [21]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @confing_chanel [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -170,7 +172,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
-                "🇩🇪 DE | 🔒 VLESS | @kingofilter [5]",
+                "🇩🇪 DE | 🔒 VLESS | @kingofilter [6]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇩🇪 DE | 🔒 VLESS | @mahan_ping [12]",
                 "🇩🇪 DE | 🔒 VLESS | @mahan_ping [13]",
@@ -207,7 +209,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [16]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇧🇪 BE | 🔒 VLESS | @vpnod [9]",
-                "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [19]",
+                "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [18]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]",
                 "🇩🇪 DE | 🔒 VLESS | @x4azadi [15]"
             ],
@@ -324,6 +326,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM"
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [21]",
+            "type": "vless",
+            "server": "85.239.60.43",
+            "server_port": 8443,
+            "uuid": "34a32230-17eb-4940-a90c-19ced0ab3074",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qJ_x7_Fz3M4QdnRG8WcqVNpgsHbwWgs_KrdCqr4iclE",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -788,7 +813,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @kingofilter [5]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @kingofilter [6]",
             "type": "vless",
             "server": "91.99.216.9",
             "server_port": 8443,
@@ -1682,7 +1707,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [19]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [18]",
             "type": "vless",
             "server": "45.80.229.254",
             "server_port": 58258,
