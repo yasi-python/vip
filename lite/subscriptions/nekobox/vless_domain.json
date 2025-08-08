@@ -94,7 +94,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "❔ XX | 🔓 VLESS | @config_proxy [34]",
+                "❔ XX | 🔒 VLESS | @config_proxy [31]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
@@ -137,6 +137,7 @@
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
                 "🚩 CF | 🔓 VLESS | @falcunargo [9]",
                 "🚩 CF | 🔒 VLESS | @farahvpn [18]",
+                "🚩 CF | 🔓 VLESS | @fastfreeconfig [59]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [16]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [3]",
@@ -371,7 +372,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "❔ XX | 🔒 VLESS | @v2rayza [20]",
                 "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [13]",
-                "🇮🇪 IE | 🔒 VLESS | @v2trayproxy [11]",
+                "🇺🇸 US | 🔒 VLESS | @v2trayproxy [11]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [5]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
@@ -439,7 +440,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "❔ XX | 🔓 VLESS | @config_proxy [34]",
+                "❔ XX | 🔒 VLESS | @config_proxy [31]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
@@ -482,6 +483,7 @@
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
                 "🚩 CF | 🔓 VLESS | @falcunargo [9]",
                 "🚩 CF | 🔒 VLESS | @farahvpn [18]",
+                "🚩 CF | 🔓 VLESS | @fastfreeconfig [59]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [16]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [3]",
@@ -716,7 +718,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "❔ XX | 🔒 VLESS | @v2rayza [20]",
                 "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [13]",
-                "🇮🇪 IE | 🔒 VLESS | @v2trayproxy [11]",
+                "🇺🇸 US | 🔒 VLESS | @v2trayproxy [11]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [5]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
@@ -1123,13 +1125,22 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @config_proxy [34]",
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [31]",
             "type": "vless",
-            "server": "speedy.mooo.info",
-            "server_port": 80,
-            "uuid": "feed2ab0-44da-488f-847b-3f2f42f560ad",
+            "server": "005188006073.sec1org.com",
+            "server_port": 443,
+            "uuid": "7582e721-8c32-4fb1-8669-b3fae590f3eb",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "005188006073.sec1org.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -1810,6 +1821,22 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔓 VLESS | @fastfreeconfig [59]",
+            "type": "vless",
+            "server": "narrow-passenger.oneeat.co",
+            "server_port": 80,
+            "uuid": "5a12794b-2125-46d7-a748-927a989faa04",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "narrow-passenger.oneeat.co"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -1893,22 +1920,6 @@
         {
             "tag": "🚩 CF | 🔓 VLESS | @flyv2ray [13]",
             "type": "vless",
-            "server": "tgju.org",
-            "server_port": 80,
-            "uuid": "acc88aa8-cb11-47d9-8a7e-081049289cb5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/olem/ws?ed=1024",
-                "headers": {
-                    "Host": "tgju.org"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @flyv2ray [14]",
-            "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
             "uuid": "acc88aa8-cb11-47d9-8a7e-081049289cb5",
@@ -1923,7 +1934,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @flyv2ray [15]",
+            "tag": "🚩 CF | 🔓 VLESS | @flyv2ray [14]",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -1935,6 +1946,22 @@
                 "path": "/olem/ws?ed=1024",
                 "headers": {
                     "Host": "chat.openai.com"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @flyv2ray [15]",
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 80,
+            "uuid": "71552f5b-0597-4524-c035-916f9298e163",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/olem/ws?ed=1024",
+                "headers": {
+                    "Host": "tgju.org"
                 }
             }
         },
@@ -5884,7 +5911,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇪 IE | 🔒 VLESS | @v2trayproxy [11]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2trayproxy [11]",
             "type": "vless",
             "server": "amazon-17.cristiano.name.ng",
             "server_port": 443,

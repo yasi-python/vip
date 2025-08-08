@@ -92,8 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇭🇰 HK | 🔒 VLESS | @config_proxy [35]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
+                "🇺🇸 US | 🔒 VLESS | @configfa [18]",
+                "🇳🇱 NL | 🔒 VLESS | @configfa [19]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [2]",
@@ -157,8 +158,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇭🇰 HK | 🔒 VLESS | @config_proxy [35]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
+                "🇺🇸 US | 🔒 VLESS | @configfa [18]",
+                "🇳🇱 NL | 🔒 VLESS | @configfa [19]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [2]",
@@ -298,29 +300,6 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @config_proxy [35]",
-            "type": "vless",
-            "server": "103.253.43.210",
-            "server_port": 8443,
-            "uuid": "590abe3d-efd1-464c-b803-b2c99f19b945",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5hKDqL2dBu7jbCfC_xW5omNEGUzPme8qF4mJOrXuHGY",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -340,6 +319,52 @@
                     "enabled": true,
                     "public_key": "PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o",
                     "short_id": "b5ecd44d"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @configfa [18]",
+            "type": "vless",
+            "server": "23.94.206.83",
+            "server_port": 443,
+            "uuid": "99c2d486-7c8e-4599-8f01-6ee149c01920",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "bale.ai",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wlAhp5AizFU94xHXO_3R3z_Hl11f5CmjJajrr60RgGw",
+                    "short_id": "cd6a271c25"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @configfa [19]",
+            "type": "vless",
+            "server": "152.42.141.126",
+            "server_port": 1615,
+            "uuid": "17518f18-0da9-489d-a1ae-61fcc746a79a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FeiQv7me3tts_1SFDIoeScklFESISNtjROyxkryUxW8",
+                    "short_id": "41c7"
                 }
             }
         },

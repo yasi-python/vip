@@ -85,7 +85,7 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [8]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [16]",
-                "❔ XX | 🔓 VLESS | @config_proxy [37]",
+                "❔ XX | 🔓 VLESS | @config_proxy [28]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [10]",
@@ -110,6 +110,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @expressvpn_420 [28]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
                 "🇺🇸 US | 🔓 VLESS | @farahvpn [15]",
+                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [54]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
@@ -135,7 +136,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [10]",
                 "❔ XX | 🔒 VLESS | @proxystore11 [12]",
                 "🇩🇪 DE | 🔓 VLESS | @proxystore11 [13]",
-                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [124]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [10]",
                 "🇺🇸 US | 🔓 VLESS | @v2graphy [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [4]",
@@ -161,7 +161,7 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [8]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [16]",
-                "❔ XX | 🔓 VLESS | @config_proxy [37]",
+                "❔ XX | 🔓 VLESS | @config_proxy [28]",
                 "❔ XX | 🔓 VLESS | @configtrapi [15]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [7]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [10]",
@@ -186,6 +186,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @expressvpn_420 [28]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
                 "🇺🇸 US | 🔓 VLESS | @farahvpn [15]",
+                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [54]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
@@ -211,7 +212,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @proxystore11 [10]",
                 "❔ XX | 🔒 VLESS | @proxystore11 [12]",
                 "🇩🇪 DE | 🔓 VLESS | @proxystore11 [13]",
-                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [124]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [10]",
                 "🇺🇸 US | 🔓 VLESS | @v2graphy [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [4]",
@@ -371,7 +371,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @config_proxy [37]",
+            "tag": "❔ XX | 🔓 VLESS | @config_proxy [28]",
             "type": "vless",
             "server": "speedy.mooo.info",
             "server_port": 80,
@@ -631,6 +631,29 @@
             "uuid": "d6bfe23e-f7a8-4beb-971c-c68ddd8fdd8c",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [54]",
+            "type": "vless",
+            "server": "nl.2.tryfreenet24.xyz",
+            "server_port": 8023,
+            "uuid": "ViP_Fragmemt_V2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.xom",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IeLdc7dCgdzACeAK1wq4rxuuBmp9kTh4Wq_pjZhJeXo",
+                    "short_id": "62e9"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @fastshovpn [1]",
@@ -1004,29 +1027,6 @@
             "uuid": "2f0f5525-5376-4820-a9b5-90064664a35d",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [124]",
-            "type": "vless",
-            "server": "nl.2.tryfreenet24.xyz",
-            "server_port": 8023,
-            "uuid": "ViP_Fragmemt_V2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.xom",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IeLdc7dCgdzACeAK1wq4rxuuBmp9kTh4Wq_pjZhJeXo",
-                    "short_id": "62e9"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @turboo_server [10]",
