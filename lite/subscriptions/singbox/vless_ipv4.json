@@ -111,10 +111,12 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🚩 CF | 🔓 VLESS | @canfing_vpn [18]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [32]",
+                "🇹🇼 TW | 🔒 VLESS | @config_proxy [28]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [29]",
+                "🇴🇲 OM | 🔓 VLESS | @config_proxy [30]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇺🇸 US | 🔒 VLESS | @configfa [18]",
-                "🇳🇱 NL | 🔒 VLESS | @configfa [19]",
+                "🇺🇸 US | 🔒 VLESS | @configfa [17]",
+                "🇳🇱 NL | 🔒 VLESS | @configfa [18]",
                 "🚩 CF | 🔓 VLESS | @configfast [2]",
                 "🚩 CF | 🔒 VLESS | @confing_chanel [9]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -172,6 +174,7 @@
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "🇩🇪 DE | 🔒 VLESS | @hope_net [19]",
                 "🚩 CF | 🔒 VLESS | @hopev2ray [8]",
                 "🚩 CF | 🔒 VLESS | @hopev2ray [9]",
                 "🇩🇪 DE | 🔓 VLESS | @hormozvpn [1]",
@@ -404,10 +407,12 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🚩 CF | 🔓 VLESS | @canfing_vpn [18]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [32]",
+                "🇹🇼 TW | 🔒 VLESS | @config_proxy [28]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [29]",
+                "🇴🇲 OM | 🔓 VLESS | @config_proxy [30]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇺🇸 US | 🔒 VLESS | @configfa [18]",
-                "🇳🇱 NL | 🔒 VLESS | @configfa [19]",
+                "🇺🇸 US | 🔒 VLESS | @configfa [17]",
+                "🇳🇱 NL | 🔒 VLESS | @configfa [18]",
                 "🚩 CF | 🔓 VLESS | @configfast [2]",
                 "🚩 CF | 🔒 VLESS | @confing_chanel [9]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -465,6 +470,7 @@
                 "🇺🇸 US | 🔒 VLESS | @happ_tm_official [2]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "🇩🇪 DE | 🔒 VLESS | @hope_net [19]",
                 "🚩 CF | 🔒 VLESS | @hopev2ray [8]",
                 "🚩 CF | 🔒 VLESS | @hopev2ray [9]",
                 "🇩🇪 DE | 🔓 VLESS | @hormozvpn [1]",
@@ -1049,13 +1055,70 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [32]",
+            "tag": "🇹🇼 TW | 🔒 VLESS | @config_proxy [28]",
             "type": "vless",
-            "server": "91.99.18.180",
-            "server_port": 8558,
-            "uuid": "1e635775-8d1b-4ba1-9e5e-839027d85e90",
+            "server": "1.170.211.61",
+            "server_port": 24230,
+            "uuid": "3e769264-67e5-44cc-98bc-4d0a6ba1febb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "addons.mozilla.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-51j7Z4Yd8IOvVaIJG9ksffyU76lxHVDC4ckrPse4xc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [29]",
+            "type": "vless",
+            "server": "104.26.15.69",
+            "server_port": 2096,
+            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "carlotta.shoorekeeper.cloudns.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "carlotta.shoorekeeper.cloudns.org"
+                }
+            }
+        },
+        {
+            "tag": "🇴🇲 OM | 🔓 VLESS | @config_proxy [30]",
+            "type": "vless",
+            "server": "38.54.116.178",
+            "server_port": 443,
+            "uuid": "16e55e1a-6152-4d92-a422-31490e8ef563",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "38.54.116.178",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -1081,7 +1144,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @configfa [18]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @configfa [17]",
             "type": "vless",
             "server": "23.94.206.83",
             "server_port": 443,
@@ -1104,7 +1167,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @configfa [19]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @configfa [18]",
             "type": "vless",
             "server": "152.42.141.126",
             "server_port": 1615,
@@ -1500,14 +1563,14 @@
         {
             "tag": "🚩 CF | 🔒 VLESS | @fastfreeconfig [58]",
             "type": "vless",
-            "server": "104.16.4.103",
-            "server_port": 2083,
-            "uuid": "8a812634-eebb-4aab-998c-311cd14ad745",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "e2d6455c-9846-4502-8394-16b8c1c07b68",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "104.16.4.103",
+                "server_name": "GrOUPyoUnEs.PAGEs.DEv",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1515,8 +1578,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@LIGHTNING6,"
+                "type": "ws",
+                "path": "/orib1trrdqo8xqma?ed=2560fp=chrome",
+                "headers": {
+                    "Host": "GrOUPyoUnEs.PAGEs.DEv"
+                }
             }
         },
         {
@@ -2115,6 +2181,31 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "130.162.238.94",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "pvg.aghabeiki.homes",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2744security=tls",
+                "headers": {
+                    "Host": "pvg.aghabeiki.homes"
                 }
             }
         },
