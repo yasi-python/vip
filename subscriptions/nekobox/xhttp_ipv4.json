@@ -80,8 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @bored_vpn [3]",
+                "🇺🇸 US | 🔓 VLESS | @bored_vpn [2]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [13]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [48]",
                 "🇺🇸 US | 🔒 VLESS | @configfa [17]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -90,13 +91,13 @@
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [2]",
-                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [50]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [4]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇴🇲 OM | 🔓 VLESS | @freakconfig [5]",
                 "🇸🇦 SA | 🔓 VLESS | @freakconfig [10]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
+                "🇺🇸 US | 🔓 VLESS | @gh_v2rayng [10]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
@@ -148,8 +149,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @bored_vpn [3]",
+                "🇺🇸 US | 🔓 VLESS | @bored_vpn [2]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [13]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [48]",
                 "🇺🇸 US | 🔒 VLESS | @configfa [17]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -158,13 +160,13 @@
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [2]",
-                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [50]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [4]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇴🇲 OM | 🔓 VLESS | @freakconfig [5]",
                 "🇸🇦 SA | 🔓 VLESS | @freakconfig [10]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
+                "🇺🇸 US | 🔓 VLESS | @gh_v2rayng [10]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
@@ -296,7 +298,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @bored_vpn [3]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @bored_vpn [2]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -312,6 +314,24 @@
             "uuid": "724383d8-33c6-4e8d-9db4-0184a89efa33",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "91.99.228.179",
+            "server_port": 443,
+            "uuid": "0f7e89d6-9f35-4e94-ba4b-509a724dc177",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.228.179",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔒 VLESS | @configfa [17]",
@@ -442,15 +462,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [50]",
-            "type": "vless",
-            "server": "151.101.67.8",
-            "server_port": 80,
-            "uuid": "8088c605-e0c2-4774-9ee4-7fa7e47b6112",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @fastkanfig [4]",
             "type": "vless",
             "server": "151.101.67.8",
@@ -544,6 +555,15 @@
                     "short_id": "dc5db021ae2038a9"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @gh_v2rayng [10]",
+            "type": "vless",
+            "server": "151.101.67.8",
+            "server_port": 80,
+            "uuid": "8088c605-e0c2-4774-9ee4-7fa7e47b6112",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [1]",
