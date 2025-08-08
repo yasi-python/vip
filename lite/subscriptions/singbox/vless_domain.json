@@ -106,6 +106,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
+                "❔ XX | 🔓 VLESS | @config_proxy [34]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
@@ -148,8 +149,6 @@
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
                 "🚩 CF | 🔓 VLESS | @falcunargo [9]",
                 "🚩 CF | 🔒 VLESS | @farahvpn [18]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [16]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [3]",
@@ -384,7 +383,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "❔ XX | 🔒 VLESS | @v2rayza [20]",
                 "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [13]",
-                "🇺🇸 US | 🔒 VLESS | @v2trayproxy [11]",
+                "🇮🇪 IE | 🔒 VLESS | @v2trayproxy [11]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [5]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
@@ -452,6 +451,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
+                "❔ XX | 🔓 VLESS | @config_proxy [34]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
@@ -494,8 +494,6 @@
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
                 "🚩 CF | 🔓 VLESS | @falcunargo [9]",
                 "🚩 CF | 🔒 VLESS | @farahvpn [18]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [16]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [3]",
@@ -730,7 +728,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "❔ XX | 🔒 VLESS | @v2rayza [20]",
                 "🇺🇸 US | 🔓 VLESS | @v2ry_proxy [13]",
-                "🇺🇸 US | 🔒 VLESS | @v2trayproxy [11]",
+                "🇮🇪 IE | 🔒 VLESS | @v2trayproxy [11]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [5]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
@@ -1131,6 +1129,15 @@
                     "Host": "A2L.GODGAME.FUN"
                 }
             }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @config_proxy [34]",
+            "type": "vless",
+            "server": "speedy.mooo.info",
+            "server_port": 80,
+            "uuid": "feed2ab0-44da-488f-847b-3f2f42f560ad",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -1807,56 +1814,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "pq-2.access.name.ng"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [58]",
-            "type": "vless",
-            "server": "T.irimcs.org",
-            "server_port": 2053,
-            "uuid": "07af5265-c931-4b5a-a3e1-25de5c5b1fbf",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "PsggSInMzoHJAFqzsxhCxpdL8BVJKbmdU_4KH5Cn-Hw",
-                    "short_id": "46bef3"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
-            "type": "vless",
-            "server": "ec76.kiava.fun",
-            "server_port": 8443,
-            "uuid": "783164cb-6410-4a96-e432-832489e4848c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "coinmarketcap.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "wQGZ3Ppa4ajV1HrQUYdpZF9D6yejNt84iWv2fV3kVHc",
-                    "short_id": "5e"
                 }
             }
         },
@@ -5935,7 +5892,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @v2trayproxy [11]",
+            "tag": "🇮🇪 IE | 🔒 VLESS | @v2trayproxy [11]",
             "type": "vless",
             "server": "amazon-17.cristiano.name.ng",
             "server_port": 443,
