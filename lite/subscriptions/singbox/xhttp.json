@@ -103,6 +103,7 @@
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇨🇦 CA | 🔓 VLESS | @prrofile_purple [127]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [19]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -119,7 +120,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [18]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [19]",
-                "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
+                "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [33]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [3]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [7]",
@@ -155,6 +156,7 @@
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇨🇦 CA | 🔓 VLESS | @prrofile_purple [127]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [19]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -171,7 +173,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [18]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [19]",
-                "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
+                "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [33]",
                 "🇺🇸 US | 🔓 VLESS | @fastshovpn [3]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [7]",
@@ -478,6 +480,29 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [19]",
+            "type": "vless",
+            "server": "87.120.205.76",
+            "server_port": 1002,
+            "uuid": "10e72fbe-78c9-483b-9ddd-26b33ecd02f6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.jsdelivr.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZR-m-ptbkHU71ZoH-jRM8L1NqSN1rzW738PsSHFwkik",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
             "type": "vless",
             "server": "199.247.28.17",
@@ -715,11 +740,11 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [33]",
             "type": "vless",
-            "server": "speedtest.net",
+            "server": "EXPRESSVPN_420.fAst.hosting-ip.com",
             "server_port": 80,
-            "uuid": "4801c19d-37aa-4704-921e-9ee9bab80f1d",
+            "uuid": "a7343619-6181-4e26-b31b-6bcf21b9e0be",
             "flow": "",
             "packet_encoding": "xudp"
         },
