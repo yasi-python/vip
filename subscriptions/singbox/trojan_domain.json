@@ -110,9 +110,10 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
-                "🇮🇹 IT | 🔓 TROJAN | @tgvpn6 [9]",
+                "❔ XX | 🔓 TROJAN | @tgvpn6 [9]",
                 "❔ XX | 🔓 TROJAN | @tgvpn6 [10]",
                 "🇭🇰 HK | 🔓 TROJAN | @tgvpn6 [13]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [5]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -153,9 +154,10 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
-                "🇮🇹 IT | 🔓 TROJAN | @tgvpn6 [9]",
+                "❔ XX | 🔓 TROJAN | @tgvpn6 [9]",
                 "❔ XX | 🔓 TROJAN | @tgvpn6 [10]",
                 "🇭🇰 HK | 🔓 TROJAN | @tgvpn6 [13]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [5]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -572,7 +574,7 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔓 TROJAN | @tgvpn6 [9]",
+            "tag": "❔ XX | 🔓 TROJAN | @tgvpn6 [9]",
             "type": "trojan",
             "server": "oss-cn-shanghai.westdatacloud.top",
             "server_port": 20048,
@@ -591,6 +593,29 @@
             "server": "v01.gutingting.com",
             "server_port": 30056,
             "password": "700b38d8-5ec2-42a8-a608-758ee1388231"
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [5]",
+            "type": "trojan",
+            "server": "arvind.ns.cloudflare.com",
+            "server_port": 443,
+            "password": "Aimer",
+            "tls": {
+                "enabled": true,
+                "server_name": "epgb.aimercc.dpdns.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?proxyip=ts.hpc.tw",
+                "headers": {
+                    "Host": "epgb.aimercc.dpdns.org"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
