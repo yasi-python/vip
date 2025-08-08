@@ -89,6 +89,7 @@
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [2]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [2]",
+                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [48]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [4]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
@@ -136,8 +137,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [5]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [7]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [9]",
-                "🇳🇱 NL | 🔒 VLESS | @vpncostumer [11]",
-                "🇳🇱 NL | 🔒 VLESS | @vpncostumer [13]"
+                "🇳🇱 NL | 🔒 VLESS | @vpncostumer [11]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -157,6 +157,7 @@
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [2]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [2]",
+                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [48]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [4]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
@@ -204,8 +205,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [5]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [7]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [9]",
-                "🇳🇱 NL | 🔒 VLESS | @vpncostumer [11]",
-                "🇳🇱 NL | 🔒 VLESS | @vpncostumer [13]"
+                "🇳🇱 NL | 🔒 VLESS | @vpncostumer [11]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -415,6 +415,29 @@
                     "enabled": true,
                     "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
                     "short_id": "61e683d41fdb"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [48]",
+            "type": "vless",
+            "server": "45.150.33.157",
+            "server_port": 50810,
+            "uuid": "ec62aa44-b9cd-417f-9adb-3a602922466d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
+                    "short_id": "aa60a00122200b76"
                 }
             }
         },
@@ -1194,29 +1217,6 @@
             "server": "45.150.33.157",
             "server_port": 50810,
             "uuid": "9d21a437-dbae-4995-949b-d9920f2613a9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
-                    "short_id": "aa60a00122200b76"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vpncostumer [13]",
-            "type": "vless",
-            "server": "45.150.33.157",
-            "server_port": 50810,
-            "uuid": "ec62aa44-b9cd-417f-9adb-3a602922466d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
