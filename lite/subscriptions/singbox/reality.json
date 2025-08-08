@@ -141,6 +141,7 @@
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [41]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔒 VLESS | @configfa [17]",
                 "🇳🇱 NL | 🔒 VLESS | @configfa [18]",
@@ -159,6 +160,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
+                "🇩🇪 DE | 🔒 VLESS | @kingofilter [3]",
                 "🇩🇪 DE | 🔒 VLESS | @kingofilter [4]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
@@ -259,6 +261,7 @@
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [41]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔒 VLESS | @configfa [17]",
                 "🇳🇱 NL | 🔒 VLESS | @configfa [18]",
@@ -277,6 +280,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
+                "🇩🇪 DE | 🔒 VLESS | @kingofilter [3]",
                 "🇩🇪 DE | 🔒 VLESS | @kingofilter [4]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
@@ -1603,6 +1607,29 @@
             }
         },
         {
+            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "62.60.233.250",
+            "server_port": 443,
+            "uuid": "fd0cdd44-2361-11f0-9970-45e1d80c4039",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "images.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MFsbnsNQsSpZwP-_Ohzako6aHpfK4-rbssxhr3eywWw",
+                    "short_id": "4476a3"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -2030,6 +2057,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "."
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @kingofilter [3]",
+            "type": "vless",
+            "server": "91.99.216.9",
+            "server_port": 8443,
+            "uuid": "77834f67-2b29-4adf-b39b-b4f1bcd729dc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
             }
         },
         {
