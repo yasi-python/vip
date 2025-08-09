@@ -120,6 +120,7 @@
                 "🇬🇧 GB | 🔒 TROJAN | @mt_proxy [2]",
                 "🇬🇧 GB | 🔒 TROJAN | @mt_proxy [3]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
+                "Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&host=vpn.stupidworld.web.id&fp=chrome&type=ws&sni=vpn.stupidworld.web.id#🚩 CF | 🔒 TROJAN | @outline_ir [18]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [3]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [4]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [5]",
@@ -137,6 +138,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [13]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -156,7 +158,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [13]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [14]",
-                "🚩 CF | 🔒 TROJAN | @vmess_ir [16]"
+                "🚩 CF | 🔒 TROJAN | @vmess_ir [14]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -207,6 +209,7 @@
                 "🇬🇧 GB | 🔒 TROJAN | @mt_proxy [2]",
                 "🇬🇧 GB | 🔒 TROJAN | @mt_proxy [3]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
+                "Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&host=vpn.stupidworld.web.id&fp=chrome&type=ws&sni=vpn.stupidworld.web.id#🚩 CF | 🔒 TROJAN | @outline_ir [18]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [3]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [4]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [5]",
@@ -224,6 +227,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [13]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -243,7 +247,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [13]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [14]",
-                "🚩 CF | 🔒 TROJAN | @vmess_ir [16]"
+                "🚩 CF | 🔒 TROJAN | @vmess_ir [14]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1012,6 +1016,22 @@
             }
         },
         {
+            "tag": "Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&host=vpn.stupidworld.web.id&fp=chrome&type=ws&sni=vpn.stupidworld.web.id#🚩 CF | 🔒 TROJAN | @outline_ir [18]",
+            "type": "trojan",
+            "server": "172.67.181.173",
+            "server_port": 443,
+            "password": "f282b878-8711-45a1-8c69-5564172123c1",
+            "tls": {
+                "enabled": true,
+                "server_name": "172.67.181.173",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [3]",
             "type": "trojan",
             "server": "63.178.151.21",
@@ -1280,6 +1300,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [13]",
+            "type": "trojan",
+            "server": "172.67.181.173",
+            "server_port": 443,
+            "password": "f282b878-8711-45a1-8c69-5564172123c1",
+            "tls": {
+                "enabled": true,
+                "server_name": "vpn.stupidworld.web.id",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/%VPNTRT",
+                "headers": {
+                    "Host": "vpn.stupidworld.web.id"
                 }
             }
         },
@@ -1579,7 +1622,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @vmess_ir [16]",
+            "tag": "🚩 CF | 🔒 TROJAN | @vmess_ir [14]",
             "type": "trojan",
             "server": "172.67.181.173",
             "server_port": 443,
