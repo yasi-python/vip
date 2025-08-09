@@ -96,11 +96,12 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [11]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [13]",
-                "🇺🇸 US | 🔒 TROJAN | @free_serverir [16]",
+                "🇺🇸 US | 🔒 TROJAN | @fastfreeconfig [52]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [11]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "❔ XX | 🔒 TROJAN | @hope_net [13]",
-                "🇷🇺 RU | 🔓 TROJAN | @hope_net [19]",
+                "❔ XX | 🔒 TROJAN | @hope_net [11]",
+                "🇷🇺 RU | 🔓 TROJAN | @hope_net [17]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
                 "🚩 CF | 🔒 TROJAN | @ip_cf_config [9]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
@@ -150,7 +151,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [13]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [14]",
-                "🚩 CF | 🔒 TROJAN | @vmess_ir [20]"
+                "🚩 CF | 🔒 TROJAN | @vmess_ir [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -177,11 +178,12 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [11]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [13]",
-                "🇺🇸 US | 🔒 TROJAN | @free_serverir [16]",
+                "🇺🇸 US | 🔒 TROJAN | @fastfreeconfig [52]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [11]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "❔ XX | 🔒 TROJAN | @hope_net [13]",
-                "🇷🇺 RU | 🔓 TROJAN | @hope_net [19]",
+                "❔ XX | 🔒 TROJAN | @hope_net [11]",
+                "🇷🇺 RU | 🔓 TROJAN | @hope_net [17]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
                 "🚩 CF | 🔒 TROJAN | @ip_cf_config [9]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
@@ -231,7 +233,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [13]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [14]",
-                "🚩 CF | 🔒 TROJAN | @vmess_ir [20]"
+                "🚩 CF | 🔒 TROJAN | @vmess_ir [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -585,7 +587,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @free_serverir [16]",
+            "tag": "🇺🇸 US | 🔒 TROJAN | @fastfreeconfig [52]",
             "type": "trojan",
             "server": "192.3.107.252",
             "server_port": 443,
@@ -624,7 +626,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @hope_net [13]",
+            "tag": "❔ XX | 🔒 TROJAN | @hope_net [11]",
             "type": "trojan",
             "server": "127.0.0.1",
             "server_port": 1080,
@@ -640,7 +642,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔓 TROJAN | @hope_net [19]",
+            "tag": "🇷🇺 RU | 🔓 TROJAN | @hope_net [17]",
             "type": "trojan",
             "server": "5.182.85.93",
             "server_port": 443,
@@ -652,6 +654,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "104.18.39.232",
+            "server_port": 2083,
+            "password": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "tls": {
+                "enabled": true,
+                "server_name": "ArGodev11222.PaGes.Dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "ArGodev11222.PaGes.Dev"
                 }
             }
         },
@@ -1473,7 +1498,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @vmess_ir [20]",
+            "tag": "🚩 CF | 🔒 TROJAN | @vmess_ir [19]",
             "type": "trojan",
             "server": "172.67.181.173",
             "server_port": 443,
