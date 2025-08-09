@@ -93,7 +93,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [13]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [29]",
                 "🇺🇸 US | 🔒 VLESS | @configfa [15]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -102,12 +101,12 @@
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [1]",
+                "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [51]",
+                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [53]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [4]",
-                "🇺🇸 US | 🔓 VLESS | @fastkanfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇴🇲 OM | 🔓 VLESS | @freakconfig [5]",
                 "🇸🇦 SA | 🔓 VLESS | @freakconfig [10]",
-                "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
                 "🇺🇸 US | 🔓 VLESS | @gh_v2rayng [10]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [3]",
@@ -159,7 +158,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [13]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [29]",
                 "🇺🇸 US | 🔒 VLESS | @configfa [15]",
                 "🇺🇸 US | 🔓 VLESS | @configtrapi [20]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -168,12 +166,12 @@
                 "🇺🇸 US | 🔓 VLESS | @dailytek [11]",
                 "🇩🇪 DE | 🔒 VLESS | @dalton_ping [1]",
                 "🇩🇪 DE | 🔒 VLESS | @elfv2ray [1]",
+                "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [51]",
+                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [53]",
                 "🇺🇸 US | 🔓 VLESS | @fastkanfig [4]",
-                "🇺🇸 US | 🔓 VLESS | @fastkanfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
                 "🇴🇲 OM | 🔓 VLESS | @freakconfig [5]",
                 "🇸🇦 SA | 🔓 VLESS | @freakconfig [10]",
-                "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
                 "🇺🇸 US | 🔓 VLESS | @gh_v2rayng [10]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [1]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [3]",
@@ -309,24 +307,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [29]",
-            "type": "vless",
-            "server": "206.71.158.10",
-            "server_port": 443,
-            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "statue.lnmarketplace.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔒 VLESS | @configfa [15]",
             "type": "vless",
             "server": "23.94.206.83",
@@ -455,16 +435,30 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @fastkanfig [4]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [51]",
             "type": "vless",
-            "server": "151.101.67.8",
-            "server_port": 80,
-            "uuid": "turboo-server",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "5.161.151.225",
+            "server_port": 6009,
+            "uuid": "bd33dca5-e673-4c02-a629-f7fa368e2333",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "adtarget.com.tr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cUB48wKXH2f7PNrZDtwt0UQ9uf5sMIXA5W_IA8twtGc",
+                    "short_id": "dc5db021ae2038a9"
+                }
+            }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @fastkanfig [8]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [53]",
             "type": "vless",
             "server": "216.22.5.96",
             "server_port": 443,
@@ -480,6 +474,15 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @fastkanfig [4]",
+            "type": "vless",
+            "server": "151.101.67.8",
+            "server_port": 80,
+            "uuid": "turboo-server",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
@@ -523,29 +526,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [10]",
-            "type": "vless",
-            "server": "5.161.151.225",
-            "server_port": 6009,
-            "uuid": "bd33dca5-e673-4c02-a629-f7fa368e2333",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "adtarget.com.tr",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cUB48wKXH2f7PNrZDtwt0UQ9uf5sMIXA5W_IA8twtGc",
-                    "short_id": "dc5db021ae2038a9"
                 }
             }
         },
