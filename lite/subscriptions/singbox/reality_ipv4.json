@@ -93,6 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [9]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configfa [19]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -121,7 +122,9 @@
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [9]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [2]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [14]",
                 "🇸🇪 SE | 🔒 VLESS | @outlinev2rayng [13]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [6]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [16]",
@@ -157,6 +160,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [9]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configfa [19]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
@@ -185,7 +189,9 @@
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [9]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [2]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [14]",
                 "🇸🇪 SE | 🔒 VLESS | @outlinev2rayng [13]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [6]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [16]",
@@ -320,6 +326,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "95.164.68.37",
+            "server_port": 8443,
+            "uuid": "5a5a30ab-7a43-4651-b89b-dec18f5d5ea1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -987,6 +1016,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [14]",
+            "type": "vless",
+            "server": "136.243.79.227",
+            "server_port": 443,
+            "uuid": "d0a86835-954b-4c2d-9f35-584ce0e052be",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "175d"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪 SE | 🔒 VLESS | @outlinev2rayng [13]",
             "type": "vless",
             "server": "46.226.160.215",
@@ -1006,6 +1058,29 @@
                     "enabled": true,
                     "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
                     "short_id": "e8ab71d0"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
+            "type": "vless",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam-297",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
                 }
             }
         },
