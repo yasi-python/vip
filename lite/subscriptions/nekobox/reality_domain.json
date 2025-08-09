@@ -86,8 +86,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @bermudavpn24 [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [32]",
+                "🇮🇳 IN | 🔒 VLESS | @config_proxy [33]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
-                "🇫🇮 FI | 🔒 VLESS | @configfa [19]",
+                "🇫🇮 FI | 🔒 VLESS | @configfa [17]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
@@ -123,7 +125,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇮🇪 IE | 🔒 VLESS | @v2trayproxy [9]",
+                "🇺🇸 US | 🔒 VLESS | @v2trayproxy [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
@@ -147,8 +149,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @bermudavpn24 [3]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [32]",
+                "🇮🇳 IN | 🔒 VLESS | @config_proxy [33]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
-                "🇫🇮 FI | 🔒 VLESS | @configfa [19]",
+                "🇫🇮 FI | 🔒 VLESS | @configfa [17]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
@@ -184,7 +188,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇮🇪 IE | 🔒 VLESS | @v2trayproxy [9]",
+                "🇺🇸 US | 🔒 VLESS | @v2trayproxy [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
@@ -428,6 +432,52 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [32]",
+            "type": "vless",
+            "server": "uuk4v.tok8888.com",
+            "server_port": 8443,
+            "uuid": "d1bcd5ee-7bdb-4de9-9aa7-48f54a97390d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com.cn",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yDkCTYl7Ap0XeU9PNv_kBY9BwQrgYZPIov-MXvpf7R8",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇮🇳 IN | 🔒 VLESS | @config_proxy [33]",
+            "type": "vless",
+            "server": "ind01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "4a640781-f5c8-4d17-80db-a6b0a091ba05",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "48720c"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -451,7 +501,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @configfa [19]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @configfa [17]",
             "type": "vless",
             "server": "legendaryking.zooboming.com",
             "server_port": 443,
@@ -1335,7 +1385,7 @@
             }
         },
         {
-            "tag": "🇮🇪 IE | 🔒 VLESS | @v2trayproxy [9]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2trayproxy [9]",
             "type": "vless",
             "server": "amazon-17.cristiano.name.ng",
             "server_port": 443,
