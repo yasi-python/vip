@@ -113,7 +113,6 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [2]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -136,10 +135,11 @@
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇺🇸 US | 🔒 VLESS | @v2trayproxy [9]",
+                "🇨🇦 CA | 🔒 VLESS | @v2trayproxy [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnod [4]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]"
@@ -174,7 +174,6 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [2]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -197,10 +196,11 @@
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇺🇸 US | 🔒 VLESS | @v2trayproxy [9]",
+                "🇨🇦 CA | 🔒 VLESS | @v2trayproxy [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnod [4]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]"
@@ -817,29 +817,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [2]",
-            "type": "vless",
-            "server": "graygoat.fonixapp.org",
-            "server_port": 45846,
-            "uuid": "534c8834-d096-462c-8c16-37571a798ef3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "17q39_glGtdUgFWkKwjxnBG0PxYkJbgt9bfkotaj7yg",
-                    "short_id": "ac"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
             "type": "vless",
             "server": "Sadaf.Netherlands.mehrdadsadaf.com",
@@ -1366,7 +1343,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @v2trayproxy [9]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @v2trayproxy [9]",
             "type": "vless",
             "server": "amazon-17.cristiano.name.ng",
             "server_port": 443,
@@ -1454,6 +1431,29 @@
                     "enabled": true,
                     "public_key": "XEpHiKs6YbcMrBR4YTRXLlIlO5RfGcVUUcbt4KZc7TY",
                     "short_id": "d90b293e"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnod [4]",
+            "type": "vless",
+            "server": "graygoat.fonixapp.org",
+            "server_port": 45846,
+            "uuid": "534c8834-d096-462c-8c16-37571a798ef3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "17q39_glGtdUgFWkKwjxnBG0PxYkJbgt9bfkotaj7yg",
+                    "short_id": "ac"
                 }
             }
         },

@@ -117,13 +117,14 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇦🇪 AE | 🔒 VLESS | @mowjproxy [3]",
+                "🇦🇪 AE | 🔒 VLESS | @mowjproxy [2]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [2]",
                 "🇹🇷 TR | 🔒 VLESS | @outlinev2rayng [16]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [6]",
-                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [6]",
+                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [8]",
+                "🇳🇱 NL | 🔒 VLESS | @proxy_mtproto_vpns_free [9]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [16]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -183,13 +184,14 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇦🇪 AE | 🔒 VLESS | @mowjproxy [3]",
+                "🇦🇪 AE | 🔒 VLESS | @mowjproxy [2]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [2]",
                 "🇹🇷 TR | 🔒 VLESS | @outlinev2rayng [16]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [6]",
-                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [6]",
+                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [8]",
+                "🇳🇱 NL | 🔒 VLESS | @proxy_mtproto_vpns_free [9]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [16]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -899,7 +901,7 @@
             }
         },
         {
-            "tag": "🇦🇪 AE | 🔒 VLESS | @mowjproxy [3]",
+            "tag": "🇦🇪 AE | 🔒 VLESS | @mowjproxy [2]",
             "type": "vless",
             "server": "93.127.180.76",
             "server_port": 32366,
@@ -1045,16 +1047,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [6]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [8]",
             "type": "vless",
-            "server": "91.99.236.124",
-            "server_port": 51479,
-            "uuid": "276a6072-3b0c-4ddb-bb33-ce14fabc1534",
+            "server": "91.107.128.99",
+            "server_port": 443,
+            "uuid": "4577c520-59c0-4edf-99f9-a131758aecad",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.cdn77.com",
+                "server_name": "tgju.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1062,13 +1064,32 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "ywnxBH4IYI83aaL9k0og1Slb9CU-eEhPypH3pXD0VSg",
-                    "short_id": ""
+                    "public_key": "lG2emtmtOMj1MRRYNQnHfH7p5IHkOyGWXvaCe0kwS0Q",
+                    "short_id": "598b09fa644710f5"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @proxy_mtproto_vpns_free [9]",
+            "type": "vless",
+            "server": "192.142.15.95",
+            "server_port": 443,
+            "uuid": "c1d16861-5a8b-46d9-bfd3-032b9abcb68f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "48720c"
+                }
             }
         },
         {
