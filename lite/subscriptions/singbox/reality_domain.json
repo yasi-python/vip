@@ -113,6 +113,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
+                "🇭🇷 HR | 🔒 VLESS | @lexernet [9]",
                 "🇬🇧 GB | 🔒 VLESS | @netmellianti [10]",
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [11]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
@@ -136,7 +137,6 @@
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇺🇸 US | 🔒 VLESS | @v2trayproxy [8]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
@@ -174,6 +174,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
+                "🇭🇷 HR | 🔒 VLESS | @lexernet [9]",
                 "🇬🇧 GB | 🔒 VLESS | @netmellianti [10]",
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [11]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
@@ -197,7 +198,6 @@
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇺🇸 US | 🔒 VLESS | @v2trayproxy [8]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
@@ -817,6 +817,29 @@
             }
         },
         {
+            "tag": "🇭🇷 HR | 🔒 VLESS | @lexernet [9]",
+            "type": "vless",
+            "server": "deu246.bypassall.org",
+            "server_port": 443,
+            "uuid": "b4b8aa1f-77d2-4851-a5a4-f78886f3e997",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇬🇧 GB | 🔒 VLESS | @netmellianti [10]",
             "type": "vless",
             "server": "panel.dayhostpro.com",
@@ -1362,29 +1385,6 @@
                     "enabled": true,
                     "public_key": "COh8PaOebru8HlshEfNEN3_6pXREyUPQvyLWfX0zT3Y",
                     "short_id": "5e"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @v2trayproxy [8]",
-            "type": "vless",
-            "server": "amazon-17.cristiano.name.ng",
-            "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
                 }
             }
         },
